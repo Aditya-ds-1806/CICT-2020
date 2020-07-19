@@ -303,8 +303,8 @@
     </section>
 
     <section class="container-fluid bg-white pb-5">
-        <div class="row justify-content-between">
-            <div class="col-9 bg-bahama-blue bg-bahama-blue" style="transform: translateY(-50%);">
+        <div class="row justify-content-between mb-5" id="parent">
+            <div class="col-9 bg-bahama-blue" style="transform: translateY(-50%);" id="child">
                 <div class="row row-cols-1 row-cols-md-3 container p-5 mx-0 my-4">
                     <div class="col mb-4">
                         <img src="https://picsum.photos/200/200" class="card-img-top rounded-0" alt="">
@@ -333,6 +333,19 @@
                 <h5 class="mt-3 font-weight-medium">Post your stories.</h5>
             </div>
         </div>
+    </section>
+
+    <section class="container-fluid py-5 bg-white">
+        <header class="container">
+            <h1 class="font-size-3 w-50 pb-5"><span class="underline-bahama-blue-lg">We are thankful to those who make
+                    it possible.</span></h1>
+            <h1 class="font-size-2 font-weight-bold my-4">SPONSORS</h1>
+        </header>
+        <main class="container mt-5 pb-5 mb-5">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quam inventore dicta atque
+                deleniti? Sed repellat tenetur id magnam impedit cupiditate, natus, debitis optio nisi ipsa qui labore
+                animi incidunt.</p>
+        </main>
     </section>
 
     <footer class="container-fluid bg-bahama-blue py-5 text-white">
@@ -365,6 +378,9 @@
                 </div>
             </div>
         </div>
+        <div class="container mt-5">
+            <small>&copy; Copyright 2020, IIITDM Kancheepuram</small>
+        </div>
     </footer>
 
     <!-- JS, Popper.js, and jQuery -->
@@ -378,6 +394,13 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script src="/slider.js"></script>
+    <script>
+        const child = document.querySelector('#child');
+        const parent = document.querySelector('#parent');
+        document.body.onload = () => child.style.marginBottom = `${-0.5 * parent.offsetHeight}px`;
+        window.addEventListener('resize', () => child.style.marginBottom = `${-0.5 * parent.offsetHeight}px`);
+        window.addEventListener('orientationchange', () => child.style.marginBottom = `${-0.5 * parent.offsetHeight}px`);
+    </script>
 </body>
 
 </html>
