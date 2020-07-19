@@ -1,30 +1,64 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
     --light-blue: #E5EFF4;
     --dark-blue: #006894;
-    font-size: 18px;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+    font-size: 16px;
 }
 
 html,
 body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
     background-color: var(--light-blue);
     color: var(--dark-blue) !important;
     font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-weight: 500;
-}
-
-.list {
-    list-style-type: none;
+    font-weight: var(--regular);
 }
 
 a:hover {
     text-decoration: none;
+}
+
+
+/* positioning */
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+
+/* font-weights */
+.font-weight-light {
+    font-weight: var(--light) !important;
+}
+
+.font-weight-medium {
+    font-weight: var(--medium) !important;
+}
+
+.font-weight-bold {
+    font-weight: var(--bold) !important;
+}
+
+.font-weight-regular {
+    font-weight: var(--regular) !important;
 }
 
 /* background colors */
@@ -67,47 +101,79 @@ a:hover {
 
 /* buttons */
 .btn-outline-bahama-blue {
-    border: 2px solid var(--dark-blue);
+    border: 0.125em solid var(--dark-blue);
     border-radius: 0;
     color: var(--dark-blue);
     background-color: transparent;
-    padding: 0.15em 1.5em;
+    padding: 0.15em 0.8em;
 }
 
 .btn-outline-bahama-blue:hover {
-    border: 2px solid var(--dark-blue);
+    border: 0.125em solid var(--dark-blue);
     border-radius: 0;
     color: #fff;
     background-color: var(--dark-blue);
-    padding: 0.15em 1.5em;
+    padding: 0.15em 0.8em;
 }
 
 .btn-outline-white {
-    border: 2px solid #fff;
+    border: 0.125em solid #fff;
     border-radius: 0;
     color: #fff;
     background-color: transparent;
-    padding: 0.15em 1.5em;
+    padding: 0.15em 0.8em;
 }
 
 .btn-outline-white:hover {
-    border: 2px solid #fff;
+    border: 0.125em solid #fff;
     border-radius: 0;
     color: var(--dark-blue);
     background-color: #fff;
-    padding: 0.15em 1.5em;
+    padding: 0.15em 0.8em;
 }
 
 
 /* borders */
 .border-bahama-blue {
-    border: 2px solid var(--dark-blue);
+    border: 0.125em solid var(--dark-blue);
     border-radius: 0;
 }
 
 .border-bottom-bahama-blue {
-    border-bottom: 2px solid var(--dark-blue);
+    border-bottom: 0.125em solid var(--dark-blue);
     border-radius: 0;
+}
+
+.border-y-bahama-blue {
+    border-top: 1em solid var(--dark-blue);
+    border-bottom: 1em solid var(--dark-blue);
+}
+
+.border-y-catskill-white {
+    border-top: 1em solid var(--light-blue);
+    border-bottom: 1em solid var(--light-blue);
+}
+
+.underline-white-lg {
+    border-bottom: 0.15rem solid #fff;
+    padding-bottom: 0.4em;
+    line-height: 5rem;
+}
+
+.underline-bahama-blue-lg {
+    border-bottom: 0.15rem solid var(--dark-blue);
+    padding-bottom: 0.4em;
+    line-height: 5rem;
+}
+
+.underline-white {
+    border-bottom: 0.15rem solid #fff;
+    padding-bottom: 0.1em;
+}
+
+.underline-bahama-blue {
+    border-bottom: 0.15rem solid var(--dark-blue);
+    padding-bottom: 0.1em;
 }
 
 /* inputs */
@@ -160,7 +226,6 @@ div.scrolling-wrapper {
     display: flex;
     overflow-x: auto;
     flex-wrap: nowrap;
-    height: 26rem;
 }
 
 div.scrolling-wrapper div.card {
@@ -217,7 +282,7 @@ div.scrolling-wrapper div.card {
 
 @media (min-width: 992px) {
     .w-lg-25 {
-        width: 33% !important;
+        width: 25% !important;
     }
 
     .w-lg-33 {
