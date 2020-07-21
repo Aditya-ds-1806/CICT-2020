@@ -7,7 +7,6 @@
     --regular: 400;
     --medium: 500;
     --bold: 700;
-    font-size: 16px;
 }
 
 html,
@@ -16,14 +15,17 @@ body {
     margin: 0;
     scroll-behavior: smooth;
     background-color: var(--light-blue);
-    color: var(--dark-blue) !important;
+    color: var(--dark-blue);
     font-family: 'Roboto', sans-serif;
     font-weight: var(--regular);
+    font-size: 16px;
 }
 
 @media(min-width: 1200px) {
-    .container {
-        max-width: 1250px;
+
+    section>.container,
+    footer>.container {
+        max-width: 85%;
     }
 }
 
@@ -154,9 +156,9 @@ a:hover {
     border-bottom: 1em solid var(--dark-blue);
 }
 
-.border-y-catskill-white {
-    border-top: 1em solid var(--light-blue);
-    border-bottom: 1em solid var(--light-blue);
+.border-y-transparent {
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
 }
 
 .underline-white-lg {
@@ -225,30 +227,12 @@ footer img.img-fluid {
     filter: drop-shadow(2px 4px 6px black);
 }
 
-/* slider */
-div.scrolling-wrapper {
-    scroll-behavior: smooth;
-    display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-}
-
-div.scrolling-wrapper div.card {
-    flex: 0 0 auto;
-}
-
-/* chrome, opera, safari */
-.scrolling-wrapper::-webkit-scrollbar {
-    display: none;
-}
-
-/* IE, edge, firefox */
-.scrolling-wrapper {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
 
 /* widths */
+.w-33 {
+    width: 33%;
+}
+
 @media (min-width: 576px) {
     .w-sm-25 {
         width: 25% !important;

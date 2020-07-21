@@ -1,0 +1,43 @@
+.bg-img {
+    background-image: url('/background.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 576px) {
+
+    html,
+    body {
+        font-size: 14px !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .move-up {
+        transform: translateY(-50%);
+    }
+
+    .pb-30 {
+        padding-bottom: 30% !important;
+    }
+}
+
+.badge {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform-origin: right bottom;
+    transform: rotate(-90deg) translateX(50%);
+    background-color: var(--dark-blue);
+    color: #fff;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .vertical-center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
