@@ -4,6 +4,10 @@
     background-position: center;
 }
 
+.opacity-20 {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
 @media(max-width: 576px) {
 
     html,
