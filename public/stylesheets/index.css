@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url('/background.svg');
+    background-image: url('/images/background.svg');
     background-size: cover;
     background-position: center;
 }
