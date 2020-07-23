@@ -5,28 +5,9 @@
     <section class="container-fluid vh-100 px-0 bg-img">
         <a class="btn btn-outline-bahama-blue d-block d-sm-none text-uppercase font-weight-bold font-size-1 py-2 badge"
             href="#callForPapers">Call for papers</a>
-        <div>
-            <p class="bg-bahama-blue text-white text-center font-weight-medium d-none d-sm-block py-2 mb-0">Pertaining
-                to COVID-19 situation, this years conference will happen virtually. Join us to explore the new
-                possibilities of information and communication technology.</p>
-        </div>
-        <div
-            class="alert text-white bg-bahama-blue alert-dismissible shadow-lg fixed-bottom rounded-0 mb-0 py-4 d-sm-none">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <p class="mb-0">Pertaining to COVID-19 situation, this years conference will happen virtually. Join us to
-                explore the new possibilities of information and communication technology.</p>
-        </div>
-
-        <nav class="navbar container bg-transparent px-0 pt-4 pt-sm-5 text-right">
-            <div class="navbar-brand ml-auto ml-sm-0 mr-sm-auto">
-                <i data-feather="menu" width="1.75em" height="1.75em"></i>
-                <span class="font-weight-medium font-size-1 d-none d-sm-inline ml-1">Menu</span>
-            </div>
-            <a class="btn btn-outline-bahama-blue text-uppercase font-weight-bold font-size-1 d-none d-sm-inline"
-                href="#callForPapers">Call for papers</a>
-        </nav>
+        <%- include('partials/alert.ejs') %>
+        <%- include('partials/nav.ejs') %>
+    
         <div class="jumbotron container jumbotron-fluid bg-transparent vertical-center mb-0 px-5 px-sm-0 mt-3 mt-sm-0">
             <div class="row mx-0">
                 <div class="col-md-10 col-lg-8 pb-5 px-0">
