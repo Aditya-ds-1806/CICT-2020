@@ -21,12 +21,14 @@ body {
     font-size: 16px;
 }
 
-@media(min-width: 1200px) {
+.bg-img {
+    background-image: url('/images/background.svg');
+    background-size: cover;
+    background-position: center;
+}
 
-    section>.container,
-    footer>.container {
-        max-width: 82.5%;
-    }
+.opacity-20 {
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 a:hover {
@@ -306,5 +308,23 @@ footer img.img-fluid {
 
     .w-xl-100 {
         width: 100% !important;
+    }
+}
+
+/* responsive-ness */
+
+@media(max-width: 576px) {
+
+    html,
+    body {
+        font-size: 14px !important;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    section>.container,
+    footer>.container {
+        max-width: 82.5%;
     }
 }

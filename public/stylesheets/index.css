@@ -1,19 +1,12 @@
-.bg-img {
-    background-image: url('/images/background.svg');
-    background-size: cover;
-    background-position: center;
-}
-
-.opacity-20 {
-    border-color: rgba(255, 255, 255, 0.2) !important;
-}
-
-@media(max-width: 576px) {
-
-    html,
-    body {
-        font-size: 14px !important;
-    }
+.badge {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform-origin: right bottom;
+    transform: rotate(-90deg) translateX(50%);
+    background-color: var(--dark-blue);
+    color: #fff;
+    z-index: 1;
 }
 
 
@@ -27,16 +20,6 @@
     }
 }
 
-.badge {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform-origin: right bottom;
-    transform: rotate(-90deg) translateX(50%);
-    background-color: var(--dark-blue);
-    color: #fff;
-    z-index: 1;
-}
 
 @media (max-width: 576px) {
     .vertical-center {
