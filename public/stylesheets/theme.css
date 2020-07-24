@@ -228,6 +228,50 @@ footer img.img-fluid {
     filter: drop-shadow(2px 4px 6px black);
 }
 
+/* menu */
+.menu-item:hover {
+    background-color: #fff;
+    color: var(--dark-blue) !important;
+}
+
+
+/* animations */
+
+.close-menu,
+.open-menu {
+    animation-duration: 1000ms;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-fill-mode: forwards;
+}
+
+.open-menu {
+    animation-name: open;
+}
+
+.close-menu {
+    animation-name: close;
+}
+
+@keyframes close {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes open {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
 
 /* widths */
 .w-33 {

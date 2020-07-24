@@ -40,10 +40,31 @@
             font-size: 12px !important;
         }
     }
+
+    .arrow {
+        position: absolute;
+        animation-name: arrow;
+        animation-duration: 1250ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+    }
+
+    @keyframes arrow {
+        from {
+            opacity: 0;
+            top: -0.5rem;
+        }
+
+        to {
+            opacity: 1;
+            top: 0.25rem;
+        }
+    }
 </style>
 </head>
 
 <body>
+    <%- include('partials/menu') %>
     <section
         class="container-fluid vh-100 px-0 bg-img bg-catskill-white d-flex flex-column justify-content-center justify-content-sm-start">
         <%- include('partials/alert.ejs') %>
@@ -54,7 +75,8 @@
                         who make the extraordinary possible.</span></h1>
             </header>
             <main class="py-3 mt-5">
-                <h5 class="font-weight-bold">Select<i data-feather="chevron-down" class="ml-2"></i></h5>
+                <h5 class="font-weight-bold position-relative">Select<i data-feather="chevron-down"
+                        class="arrow ml-2"></i></h5>
                 <ul class="nav nav-pills d-flex flex-row mt-2" id="myTab" role="tablist">
                     <li class="nav-item my-2 mr-3 text-uppercase order-0" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold active" id="patrons-tab" data-toggle="tab"
