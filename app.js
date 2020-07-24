@@ -12,6 +12,10 @@ app.get('/committees', (req, res) => {
     res.render('committees', { route: "committees" });
 });
 
+app.get('/call-for-papers', (req, res) => {
+    res.render('cfp', { route: "cfp" });
+});
+
 app.get('*', (req, res) => {
     res.sendStatus(404);
 });
