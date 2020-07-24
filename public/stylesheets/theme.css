@@ -14,7 +14,6 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: var(--light-blue);
     color: var(--dark-blue);
     font-family: 'Roboto', sans-serif;
     font-weight: var(--regular);
@@ -302,6 +301,10 @@ footer img.img-fluid {
         width: 50% !important;
     }
 
+    .w-xl-33 {
+        width: 33% !important;
+    }
+
     .w-xl-75 {
         width: 75% !important;
     }
@@ -322,9 +325,7 @@ footer img.img-fluid {
 }
 
 @media(min-width: 1200px) {
-
-    section>.container,
-    footer>.container {
+    .expand {
         max-width: 82.5%;
     }
 }

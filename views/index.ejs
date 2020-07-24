@@ -1,14 +1,15 @@
 <%- include('partials/header') %>
 </head>
 
-<body>
+<body class="bg-catskill-white">
     <section class="container-fluid vh-100 px-0 bg-img">
         <a class="btn btn-outline-bahama-blue d-block d-sm-none text-uppercase font-weight-bold font-size-1 py-2 badge"
             href="#callForPapers">Call for papers</a>
         <%- include('partials/alert.ejs') %>
         <%- include('partials/nav.ejs') %>
-    
-        <div class="jumbotron container jumbotron-fluid bg-transparent vertical-center mb-0 px-5 px-sm-0 mt-3 mt-sm-0">
+
+        <div
+            class="jumbotron container expand jumbotron-fluid bg-transparent vertical-center mb-0 px-5 px-sm-0 mt-3 mt-sm-0">
             <div class="row mx-0">
                 <div class="col-md-10 col-lg-8 pb-5 px-0">
                     <div class="row mx-0 mb-5">
@@ -94,12 +95,12 @@
                 </div>
             </div>
         </div>
-        <header class="container pt-5">
+        <header class="container expand pt-5">
             <h1 class="font-size-3 w-md-50 pb-5 mt-md-5"><span class="underline-white-lg">Some tagline goes here
                     conveying the core idea of this conference.</span></h1>
             <h1 class="font-size-2 font-weight-bold my-4">IEEE CICT</h1>
         </header>
-        <main class="container my-5 pt-4">
+        <main class="container expand my-5 pt-4">
             <p class="lead font-weight-regular m-0">CICT “The IEEE Conference on Information and Communication
                 Technology” is top level International Conference covering broad topics in the areas of Information and
                 Communication Technology. This Conference is started by the five MHRD funded IIITs (IIIT Allahabad, ABV-
@@ -111,17 +112,17 @@
                 2019 will be hosted by IIIT Allahabad, India during December 06-08, 2019. The conference will
                 feature technical paper sessions, poster sessions, and Ph.D. symposium.</p>
         </main>
-        <footer class="container mb-5 py-5">
+        <footer class="container expand mb-5 py-5">
             <a href="" class="lead text-white underline-white d-inline font-weight-medium">Checkout our 2019 stories</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
     </section>
 
     <section class="container-fluid bg-catskill-white text-bahama-blue py-5">
-        <header class="container my-5 pt-5">
+        <header class="container expand my-5 pt-5">
             <h1 class="font-size-2 text-uppercase font-weight-bold">Updates</h1>
         </header>
-        <main class="container">
+        <main class="container expand">
             <div class="row justify-content-between">
                 <div class="col-md-7">
                     <div class="row row-cols-1 row-cols-md-2">
@@ -152,12 +153,12 @@
     </section>
 
     <section class="container-fluid bg-white py-5" id="callForPapers">
-        <header class="container mt-5 pt-5">
+        <header class="container expand mt-5 pt-5">
             <h1 class="font-size-2 text-uppercase font-weight-bold d-block d-sm-inline pb-4 pb-sm-0">Call for papers
             </h1>
             <a href="" class="btn btn-outline-bahama-blue ml-sm-3 font-weight-bold align-top">Download Brochure</a>
         </header>
-        <main class="container mt-5">
+        <main class="container expand mt-5">
             <p class="lead mt-3 font-weight-regular">IEEE SENSORS 2020 is intended to provide a forum for research
                 scientists, engineers,
                 and practitioners throughout the world to present their latest research findings, ideas, and
@@ -210,60 +211,29 @@
                 </div>
             </div>
         </main>
-        <footer class="container my-5 pb-5">
+        <footer class="container expand my-5 pb-5">
             <a href="" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-medium">Know More</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
     </section>
 
     <section class="container-fluid pt-5 bg-catskill-white text-bahama-blue pb-5 pb-30">
-        <header class="container mt-5 pt-4">
+        <header class="container expand mt-5 pt-4">
             <h1 class="font-size-3 w-md-50 mb-4"><span class="underline-bahama-blue-lg">We are committed to bringing
                     brilliant minds together.</span></h1>
             <a href="" class="btn btn-outline-bahama-blue font-size-1 text-uppercase font-weight-bold mt-5 mb-4">Keynote
                 Speakers</a>
         </header>
-        <main class="container my-5">
+        <main class="container expand my-5">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+                <% for(let i = 0; i < 4; i++) { %>
                 <div class="col mb-5">
-                    <div class="card bg-catskill-white text-white border-0 rounded-0">
-                        <img src="images/Thomas-Kailath.jpg" class="card-img-top rounded-0 border-0 m-0" alt="">
-                        <div class="card-body border-bottom-bahama-blue rounded rounded-0 text-bahama-blue">
-                            <h5 class="card-title font-weight-bold mb-0">Prof. Dr. Thomas Kailath</h5>
-                            <p class="small mb-0">Stanford University</p>
-                        </div>
-                    </div>
+                    <%- include('partials/person-card.ejs') %>
                 </div>
-                <div class="col mb-5">
-                    <div class="card bg-catskill-white text-white border-0 rounded-0">
-                        <img src="images/Thomas-Kailath.jpg" class="card-img-top rounded-0 border-0 m-0" alt="">
-                        <div class="card-body border-bottom-bahama-blue rounded rounded-0 text-bahama-blue">
-                            <h5 class="card-title font-weight-bold mb-0">Prof. Dr. Thomas Kailath</h5>
-                            <p class="small mb-0">Stanford University</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card bg-catskill-white text-white border-0 rounded-0">
-                        <img src="images/Thomas-Kailath.jpg" class="card-img-top rounded-0 border-0 m-0" alt="">
-                        <div class="card-body border-bottom-bahama-blue rounded rounded-0 text-bahama-blue">
-                            <h5 class="card-title font-weight-bold mb-0">Prof. Dr. Thomas Kailath</h5>
-                            <p class="small mb-0">Stanford University</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card bg-catskill-white text-white border-0 rounded-0">
-                        <img src="images/Thomas-Kailath.jpg" class="card-img-top rounded-0 border-0 m-0" alt="">
-                        <div class="card-body border-bottom-bahama-blue rounded rounded-0 text-bahama-blue">
-                            <h5 class="card-title font-weight-bold mb-0">Prof. Dr. Thomas Kailath</h5>
-                            <p class="small mb-0">Stanford University</p>
-                        </div>
-                    </div>
-                </div>
+                <% } %>
             </div>
         </main>
-        <footer class="container mb-5 pb-5">
+        <footer class="container expand mb-5 pb-5">
             <a href="" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-bold">Know More</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
@@ -309,13 +279,13 @@
     </section>
 
     <section class="container-fluid pt-4 pb-5 bg-white">
-        <header class="container">
+        <header class="container expand">
             <h1 class="font-size-3 w-md-50 pb-5"><span class="underline-bahama-blue-lg">We are thankful to those who
                     make
                     it possible.</span></h1>
             <h1 class="font-size-2 font-weight-bold my-4">SPONSORS</h1>
         </header>
-        <main class="container mt-5 pb-5 mb-5">
+        <main class="container expand mt-5 pb-5 mb-5">
             <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quam inventore dicta atque
                 deleniti? Sed repellat tenetur id magnam impedit cupiditate, natus, debitis optio nisi ipsa qui labore
                 animi incidunt.</p>

@@ -1,10 +1,139 @@
 <%- include('partials/header') %>
+<style>
+    ul.nav-pills a.nav-link.active,
+    ul.nav-pills a.nav-link {
+        color: var(--dark-blue);
+        border: 0.125em solid var(--dark-blue);
+        border-radius: 0;
+        font-weight: 500;
+        transition: all 200ms;
+        padding: 0.15em 0.8em;
+    }
+
+    ul.nav-pills a.nav-link:hover,
+    ul.nav-pills a.nav-link.active {
+        background-color: var(--dark-blue);
+        color: white;
+        padding: 0.15em 0.8em;
+    }
+
+    @media(max-width: 992px) {
+
+        html,
+        body {
+            font-size: 15px !important;
+        }
+    }
+
+    @media(max-width: 768px) {
+
+        html,
+        body {
+            font-size: 14px !important;
+        }
+    }
+
+    @media(max-width: 576px) {
+
+        html,
+        body {
+            font-size: 12px !important;
+        }
+    }
+</style>
 </head>
 
 <body>
-    <section class="container-fluid vh-100 px-0 bg-img">
+    <section
+        class="container-fluid vh-100 px-0 bg-img bg-catskill-white d-flex flex-column justify-content-center justify-content-sm-start">
         <%- include('partials/alert.ejs') %>
         <%- include('partials/nav.ejs') %>
+        <div class="jumbotron container jumbotron-fluid bg-transparent expand mb-0 pl-3 px-sm-0 pt-3" id="hero">
+            <header class="mt-sm-4">
+                <h1 class="font-size-3 w-md-75 w-lg-50"><span class="underline-bahama-blue-lg">Extraordinary people
+                        who make the extraordinary possible.</span></h1>
+            </header>
+            <main class="py-3 mt-5">
+                <h5 class="font-weight-bold">Select<i data-feather="chevron-down" class="ml-2"></i></h5>
+                <ul class="nav nav-pills d-flex flex-row mt-2" id="myTab" role="tablist">
+                    <li class="nav-item my-2 mr-3 text-uppercase order-0" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold active" id="patrons-tab" data-toggle="tab"
+                            href="#patrons" role="tab" aria-controls="patrons" aria-selected="true">Patrons</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-1" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="general-chairs-tab" data-toggle="tab"
+                            href="#generalChairs" role="tab" aria-controls="generalChairs" aria-selected="false">General
+                            Chairs</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-4 order-sm-2" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="advisory-tab" data-toggle="tab"
+                            href="#advisory" role="tab" aria-controls="advisory" aria-selected="false">Advisory
+                            Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-2 order-sm-3" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="organising-chairs-tab" data-toggle="tab"
+                            href="#organisingChairs" role="tab" aria-controls="organisingChairs"
+                            aria-selected="false">Organising Chairs</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-5 order-sm-4" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="technical-tab" data-toggle="tab"
+                            href="#technical" role="tab" aria-controls="technical" aria-selected="false">Technical
+                            Program Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-6 order-sm-5" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="local-program-tab" data-toggle="tab"
+                            href="#localProgram" role="tab" aria-controls="localProgram" aria-selected="false">Local
+                            Organising Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="track-chairs-tab" data-toggle="tab"
+                            href="#trackChairs" role="tab" aria-controls="trackChairs" aria-selected="false">Track
+                            Chairs</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-7" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="organizing-tab" data-toggle="tab"
+                            href="#organizing" role="tab" aria-controls="organizing" aria-selected="false">Conference
+                            Organising Committee</a>
+                    </li>
+                </ul>
+            </main>
+        </div>
     </section>
 
-<%- include('partials/footer') %>
+    <section class="container expand py-5 my-5 px-5 px-sm-4">
+        <button class="btn btn-lg btn-outline-bahama-blue text-uppercase font-weight-bold my-5"
+            id="topic">Patrons</button>
+        <div class="tab-content font-size-1" id="myTabContent">
+            <div class="tab-pane fade text-secondary show active" id="patrons" role="tabpanel"
+                aria-labelledby="patrons-tab">
+                <%- include('partials/patrons') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="generalChairs" role="tabpanel"
+                aria-labelledby="general-chairs-tab">
+                <%- include('partials/general-chairs') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="advisory" role="tabpanel" aria-labelledby="advisory-tab">
+                <%- include('partials/advisory-committee') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="organisingChairs" role="tabpanel"
+                aria-labelledby="organising-chairs-tab">
+                <%- include('partials/organising-chairs') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="technical" role="tabpanel" aria-labelledby="technical-tab">
+                <%- include('partials/technical-committee') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="localProgram" role="tabpanel"
+                aria-labelledby="local-program-tab">
+                <%- include('partials/local-committee') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="trackChairs" role="tabpanel"
+                aria-labelledby="track-chairs-tab">
+                <%- include('partials/track-chairs') %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="organizing" role="tabpanel" aria-labelledby="organizing-tab">
+                <%- include('partials/conference-committee') %>
+            </div>
+        </div>
+    </section>
+
+    <%- include('partials/footer') %>
