@@ -128,7 +128,7 @@
         <div class="tab-content font-size-1" id="myTabContent">
             <div class="tab-pane fade text-secondary show active" id="patrons" role="tabpanel"
                 aria-labelledby="patrons-tab">
-                <%- include('partials/patrons') %>
+                <%- include('partials/patrons', {patrons: patrons}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="generalChairs" role="tabpanel"
                 aria-labelledby="general-chairs-tab">

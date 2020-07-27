@@ -1,24 +1,12 @@
-<% for(let i = 0; i < 3; i++) { %>
+<% patrons.forEach(patron => { %>
 <div class="row row-reverse justify-content-between align-items-center mb-5 py-5">
     <div class="col-md-7 col-lg-8 order-1 order-md-0">
         <header>
-
-            <h1 class="text-bahama-blue font-size-2 font-weight-bold">Prof. Banshidhar Majhi</h1>
-            <h2 class="text-bahama-blue font-size-2 font-weight-regular">Director, IIITDM Kancheepuram</h2>
+            <h1 class="text-bahama-blue font-size-2 font-weight-bold">Prof. <%= patron.name %></h1>
+            <h2 class="text-bahama-blue font-size-2 font-weight-regular">Director, <%= patron.institute %></h2>
         </header>
         <main>
-            <p class="mt-5">Prof. Banshidhar Majhi received his Bachelor’s degree in Physics with honours from G.M.
-                College under Sambalpur University in 1984. He completed Master of Computer Applications in 1988 and
-                subsequently M.Tech. in Computer Science and Engineering in 1998 both from REC Rourkela, Sambalpur
-                University. He obtained his Ph.D. in Computer Science and Engineering in 2003 from the same institute.
-                He served in various administrative positions at NIT Rourkela such as Head of the Department, Professor
-                in-charge of Examinations, Dean - Academics, and Chairman - Automation Cell. He has been instrumental in
-                setting up two centers of research, namely, Centre of Data Analytics and Decision Sciences, and Centre
-                of Computer Vision and Pattern Recognition at NIT Rourkela. His numerous research outputs pertain to
-                image restoration, video compression, biometrics, soft computing, optical character recognition, image
-                super-resolution, biomedical image processing, wireless sensor and actor networks. Under his guidance,
-                15 scholars have completed their Ph.D. in Computer Engineering. He has also guided numerous students in
-                their M.Tech. and M.S. program.</p>
+            <p class="mt-5"><%= patron.description %></p>
         </main>
         <footer class="my-5">
             <a href="" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-medium">Know More</a>
@@ -26,7 +14,7 @@
         </footer>
     </div>
     <div class="col-md-4 col-lg-3 text-center order-0 order-md-1 mb-3 pb-5 mb-md-0 pb-md-0">
-        <img src="images/majhi.png" class="img-fluid px-3 px-md-0" alt="Dr. Banshidhar Majhi">
+        <img src="<%= patron.image %>" class="img-fluid px-3 px-md-0" alt="Dr. Banshidhar Majhi">
     </div>
 </div>
-<% } %>
+<% }); %>

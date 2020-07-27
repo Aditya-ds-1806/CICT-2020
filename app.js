@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+const fs = require('fs');
+const { json } = require('express');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
@@ -9,7 +11,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/committees', (req, res) => {
-    res.render('committees', { route: "committees" });
+    const patrons = JSON.parse(fs.readFileSync('content/patrons.json'));
+    var options = {
+        route: "committees",
+        patrons: patrons
+    }
+    res.render('committees', options);
 });
 
 app.get('/call-for-papers', (req, res) => {
