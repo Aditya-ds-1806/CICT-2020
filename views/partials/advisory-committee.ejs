@@ -1,7 +1,7 @@
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 py-5 mb-5">
-    <% for(let i = 0; i < 16; i++) { %>
+    <% trc.forEach(person => { %>
     <div class="col mb-5 pb-5">
-        <%- include('person-card.ejs') %>
+        <%- //include('person-card.ejs', {person: person}) %>
     </div>
-    <% } %>
+    <% }) %>
 </div>

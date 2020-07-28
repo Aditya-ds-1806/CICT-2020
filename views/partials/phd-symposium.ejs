@@ -1,12 +1,12 @@
-<% Object.keys(coc).forEach(committee => { %>
+<% Object.keys(phdSymposium).forEach(committee => { %>
 <div class="py-5 mb-5">
     <h1 class="text-bahama-blue font-size-2 font-weight-bold text-uppercase mb-5"><%= committee %></h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-        <% coc[committee].forEach(person => { %>
+        <% phdSymposium[committee].forEach(person => { %>
         <div class="col mb-5">
-            <%- include('person-card.ejs', { person: person }) %>
+            <%- include('person-card.ejs', {person: person}) %>
         </div>
         <% }) %>
     </div>
 </div>
-<% }) %>
+<% })%>

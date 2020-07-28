@@ -1,0 +1,12 @@
+<% Object.keys(trc).forEach(track => { %>
+<div class="mb-5">
+    <h1 class="text-bahama-blue font-size-2 font-weight-bold text-uppercase mb-5"><%= track %></h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 py-5 mb-5">
+        <% trc[track].forEach(person => { %>
+        <div class="col mb-5 pb-5">
+            <%- include('person-card.ejs', {person: person}) %>
+        </div>
+        <% }) %>
+    </div>
+</div>
+<% }) %>
