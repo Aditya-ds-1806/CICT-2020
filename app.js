@@ -6,7 +6,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.render('index', { route: "index" });
+    const speakers = JSON.parse(fs.readFileSync('content/speakers.json'));
+    res.render('index', { route: "index", speakers: speakers });
 });
 
 app.get('/committees', (req, res) => {

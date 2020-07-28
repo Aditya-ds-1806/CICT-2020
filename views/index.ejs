@@ -185,11 +185,11 @@
         </header>
         <main class="container expand my-5">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-                <% for(let i = 0; i < 4; i++) { %>
+                <% speakers.forEach(speaker => { %>
                 <div class="col mb-5">
-                    <%- include('partials/person-card.ejs') %>
+                    <%- include('partials/person-card.ejs', {person: speaker}) %>
                 </div>
-                <% } %>
+                <% }) %>
             </div>
         </main>
         <footer class="container expand mb-5 pb-5">
