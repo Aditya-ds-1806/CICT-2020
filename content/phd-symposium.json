@@ -1,0 +1,36 @@
+{
+    "PhD Track Review Committee (PRC)": [
+        {
+            "name": "Dr. Tapas Sil",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        },
+        {
+            "name": "Dr. P Pandithevan",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        },
+        {
+            "name": "Dr. Kumar Prasannajit Pradhan",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        }
+    ],
+    "PhD Thesis Review Committee (PTRC)": [
+        {
+            "name": "Dr. Masilamani V",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        },
+        {
+            "name": "Dr. Sivaselvan B",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        },
+        {
+            "name": "Dr. Selvaraj M D",
+            "image": "images/faculty/majhi.png",
+            "institute": "IIITDM Kancheepuram"
+        }
+    ]
+}

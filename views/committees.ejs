@@ -88,6 +88,11 @@
                             Chairs</a>
                     </li>
                     <li class="nav-item my-2 mr-3 text-uppercase order-4 order-sm-2" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="steering-tab" data-toggle="tab"
+                            href="#steering" role="tab" aria-controls="steering" aria-selected="false">Steering
+                            Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-4 order-sm-2" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="advisory-tab" data-toggle="tab"
                             href="#advisory" role="tab" aria-controls="advisory" aria-selected="false">Advisory
                             Committee</a>
@@ -103,19 +108,34 @@
                             Program Committee</a>
                     </li>
                     <li class="nav-item my-2 mr-3 text-uppercase order-6 order-sm-5" role="presentation">
-                        <a class="nav-link font-size-1 font-weight-bold" id="local-program-tab" data-toggle="tab"
-                            href="#localProgram" role="tab" aria-controls="localProgram" aria-selected="false">Local
-                            Organising Committee</a>
+                        <a class="nav-link font-size-1 font-weight-bold" id="phd-symposium-tab" data-toggle="tab"
+                            href="#phdSymposium" role="tab" aria-controls="phdSymposium" aria-selected="false">PhD
+                            Symposium Chairs</a>
                     </li>
                     <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="track-chairs-tab" data-toggle="tab"
                             href="#trackChairs" role="tab" aria-controls="trackChairs" aria-selected="false">Track
                             Chairs</a>
                     </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="wie-tab" data-toggle="tab" href="#wie"
+                            role="tab" aria-controls="wie" aria-selected="false">WiE
+                            Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="industry-tab" data-toggle="tab"
+                            href="#industry" role="tab" aria-controls="industry" aria-selected="false">Industry Forum
+                            Committee</a>
+                    </li>
                     <li class="nav-item my-2 mr-3 text-uppercase order-7" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="organizing-tab" data-toggle="tab"
                             href="#organizing" role="tab" aria-controls="organizing" aria-selected="false">Conference
                             Organising Committee</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase order-7" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="student-tab" data-toggle="tab"
+                            href="#student" role="tab" aria-controls="student" aria-selected="false">Student
+                            Management Committee</a>
                     </li>
                 </ul>
             </main>
@@ -132,28 +152,44 @@
             </div>
             <div class="tab-pane fade text-secondary" id="generalChairs" role="tabpanel"
                 aria-labelledby="general-chairs-tab">
-                <%- include('partials/general-chairs') %>
+                <%- include('partials/general-chairs', {gc: gc}) %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="steering" role="tabpanel"
+                aria-labelledby="general-chairs-tab">
+                Steering committee
+                <%- //include('partials/steering-committee', {gc: gc}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="advisory" role="tabpanel" aria-labelledby="advisory-tab">
-                <%- include('partials/advisory-committee') %>
+                Advisory Committee
+                <%- //include('partials/advisory-committee', {trc: trc}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="organisingChairs" role="tabpanel"
                 aria-labelledby="organising-chairs-tab">
-                <%- include('partials/organising-chairs') %>
+                <%- include('partials/organising-chairs', {oc: oc}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="technical" role="tabpanel" aria-labelledby="technical-tab">
-                <%- include('partials/technical-committee') %>
+                Technical program Committee
+                <%- //include('partials/technical-committee', {trc: trc}) %>
             </div>
-            <div class="tab-pane fade text-secondary" id="localProgram" role="tabpanel"
-                aria-labelledby="local-program-tab">
-                <%- include('partials/local-committee') %>
+            <div class="tab-pane fade text-secondary" id="phdSymposium" role="tabpanel"
+                aria-labelledby="phd-symposium-tab">
+                <%- include('partials/phd-symposium', {phdSymposium: phdSymposium}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="trackChairs" role="tabpanel"
                 aria-labelledby="track-chairs-tab">
-                <%- include('partials/track-chairs') %>
+                <%- include('partials/track-chairs', {trc: trc}) %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="wie" role="tabpanel" aria-labelledby="wie-tab">
+                <%- include('partials/wie', {wie: wie}) %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="industry" role="tabpanel" aria-labelledby="industry-tab">
+                <%- include('partials/industry', {industry: industry}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="organizing" role="tabpanel" aria-labelledby="organizing-tab">
-                <%- include('partials/conference-committee') %>
+                <%- include('partials/conference-committee', {coc: coc}) %>
+            </div>
+            <div class="tab-pane fade text-secondary" id="student" role="tabpanel" aria-labelledby="student-tab">
+                <%- include('partials/students', {student: student}) %>
             </div>
         </div>
     </section>

@@ -1,0 +1,94 @@
+{
+    "Core Organising Committee": [],
+    "Registration Committee": [
+        {
+            "name": "Dr. Kalpana P",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Siva Prasad A V S",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Shubhankar Chakraborty",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        }
+    ],
+    "Finance Committee": [],
+    "Programs and Events Committee": [
+        {
+            "name": "Dr. S Jayavel",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Shubhankar Chakraborty",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Venkata Timmaraju Mallina",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Jagadish Kakarla",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Avinash Kumar",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        }
+    ],
+    "Proceedings Committee": [
+        {
+            "name": "Dr. B Chitti Babu",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Tejendra Dixit",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Vivek Kumar",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        }
+    ],
+    "Certificate and Awards Committee": [
+        {
+            "name": "Dr. Jayabal K",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Karthick S",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        }
+    ],
+    "Publicity, Media and Sponsorship Committee": [
+        {
+            "name": "Dr. Selvaraj M D",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Asutosh Kar",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        },
+        {
+            "name": "Dr. Kumar Prasannajit Pradhan",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/majhi.png"
+        }
+    ]
+}
