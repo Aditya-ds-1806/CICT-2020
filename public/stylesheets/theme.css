@@ -195,6 +195,26 @@ input.form-control.light {
     color: var(--dark-blue);
 }
 
+input.form-control.light::-webkit-input-placeholder {
+    color: var(--dark-blue);
+    opacity: 0.4;
+}
+
+input.form-control.light::-moz-placeholder {
+    color: var(--dark-blue);
+    opacity: 0.4;
+}
+
+input.form-control.light:-ms-input-placeholder {
+    color: var(--dark-blue);
+    opacity: 0.4;
+}
+
+input.form-control.light::-ms-input-placeholder {
+    color: var(--dark-blue);
+    opacity: 0.4;
+}
+
 input.form-control.light::placeholder {
     color: var(--dark-blue);
     opacity: 0.4;
@@ -214,6 +234,26 @@ input.form-control.dark {
     color: #fff;
 }
 
+input.form-control.dark::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.4;
+}
+
+input.form-control.dark::-moz-placeholder {
+    color: #fff;
+    opacity: 0.4;
+}
+
+input.form-control.dark:-ms-input-placeholder {
+    color: #fff;
+    opacity: 0.4;
+}
+
+input.form-control.dark::-ms-input-placeholder {
+    color: #fff;
+    opacity: 0.4;
+}
+
 input.form-control.dark::placeholder {
     color: #fff;
     opacity: 0.4;
@@ -225,6 +265,7 @@ input.form-control.dark:focus {
 }
 
 footer img.img-fluid {
+    -webkit-filter: drop-shadow(2px 4px 6px black);
     filter: drop-shadow(2px 4px 6px black);
 }
 
@@ -239,17 +280,32 @@ footer img.img-fluid {
 
 .close-menu,
 .open-menu {
+    -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
+    -webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
 .open-menu {
+    -webkit-animation-name: open;
     animation-name: open;
 }
 
 .close-menu {
+    -webkit-animation-name: close;
     animation-name: close;
+}
+
+@-webkit-keyframes close {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 @keyframes close {
@@ -259,6 +315,16 @@ footer img.img-fluid {
 
     to {
         transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes open {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
     }
 }
 

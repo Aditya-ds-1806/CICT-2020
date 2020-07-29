@@ -3,84 +3,84 @@
         {
             "name": "Dr. Masilamani V",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/masilamani.jpg"
         }
     ],
     "Big Data Analytics and Cloud Computing": [
         {
             "name": "Dr. Sivaselvan B",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/sivaselvan.jpg"
         }
     ],
     "Bioinformatics and Bio Inspired computing": [
         {
             "name": "Dr. Umarani Jayaraman",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/umarani.jpg"
         }
     ],
     "Circuits and Systems for Signal and Data processing": [
         {
             "name": "Dr. Bhupendra Singh Reniwal",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/reniwal.jpg"
         }
     ],
     "Digital Security and Information Privacy": [
         {
             "name": "Dr. Noor Mohammed",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/noor.jpg"
         }
     ],
     "Graph Theory and Algorithms": [
         {
             "name": "Dr. Shalu M A",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/shalu.jpg"
         }
     ],
     "Internet of Everything and Sensor Networks": [
         {
             "name": "Dr. T S Hari Narayanan",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/tshari.jpg"
         }
     ],
     "Neuromorphic Computing and Networks": [
         {
             "name": "Dr. Tejendra Dixit",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/tejendra-dixit.jpg"
         }
     ],
     "Next generation Communication Technologies": [
         {
             "name": "Dr. Prerna Saxena",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/prerna.jpg"
         }
     ],
     "Robotics and Automation": [
         {
             "name": "Dr. Senthilkumaran K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/skumaran.jpg"
         }
     ],
     "Signal, Image and Video processing": [
         {
             "name": "Dr. Appina Balasubramanyam",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/appina.jpg"
         }
     ],
     "Wireless and Software Defined Networks": [
         {
             "name": "Dr. Srijith K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/majhi.png"
+            "image": "images/faculty/srijith.jpg"
         }
     ]
 }
