@@ -13,7 +13,7 @@
             "image": "images/faculty/sivaselvan.jpg"
         }
     ],
-    "Bioinformatics and Bio Inspired computing": [
+    "CoVID-19 Technologies and Data Analysis": [
         {
             "name": "Dr. Umarani Jayaraman",
             "institute": "IIITDM Kancheepuram",
@@ -34,21 +34,21 @@
             "image": "images/faculty/noor.jpg"
         }
     ],
-    "Graph Theory and Algorithms": [
+    "Theoretical Computer Science": [
         {
             "name": "Dr. Shalu M A",
             "institute": "IIITDM Kancheepuram",
             "image": "images/faculty/shalu.jpg"
         }
     ],
-    "Internet of Everything and Sensor Networks": [
+    "Internet of everything and Wireless Sensor networks": [
         {
             "name": "Dr. T S Hari Narayanan",
             "institute": "IIITDM Kancheepuram",
             "image": "images/faculty/tshari.jpg"
         }
     ],
-    "Neuromorphic Computing and Networks": [
+    "Bio Inspired Computing and Neural Networks": [
         {
             "name": "Dr. Tejendra Dixit",
             "institute": "IIITDM Kancheepuram",
@@ -62,7 +62,7 @@
             "image": "images/faculty/prerna.jpg"
         }
     ],
-    "Robotics and Automation": [
+    "ICT in Robotics and Automation": [
         {
             "name": "Dr. Senthilkumaran K",
             "institute": "IIITDM Kancheepuram",
@@ -76,7 +76,7 @@
             "image": "images/faculty/appina.jpg"
         }
     ],
-    "Wireless and Software Defined Networks": [
+    "Photonics and fiber optic communication": [
         {
             "name": "Dr. Srijith K",
             "institute": "IIITDM Kancheepuram",

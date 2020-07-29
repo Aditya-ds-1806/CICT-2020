@@ -1,44 +1,13 @@
-<div class="row">
-    <div class="col-md-4 pr-lg-5">
+<% const p = ["pr-lg-5", "px-lg-5", "pl-lg-5"] %>
+
+<div class="row d-flex">
+    <% for(let i = 0; i < 3; i++) { %>
+    <div class="col-md-4 <%= p[i] %>">
+        <% for(let j = i; j < tracks.length; j = j + 3) { %>
         <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
+            <p class="lead w-75 w-md-100 font-weight-regular mb-2"><%= tracks[j] %> </p>
         </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
+        <% } %>
     </div>
-    <div class="col-md-4 px-lg-5">
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-    </div>
-    <div class="col-md-4 pl-lg-5">
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2">Sensor Phenomenology, Modelling and
-                Evaluation</p>
-        </div>
-    </div>
+    <% } %>
 </div>

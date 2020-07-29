@@ -7,7 +7,8 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     const speakers = JSON.parse(fs.readFileSync('content/speakers.json'));
-    res.render('index', { route: "index", speakers: speakers });
+    const tracks = JSON.parse(fs.readFileSync('content/tracks.json'));
+    res.render('index', { route: "index", speakers: speakers, tracks: tracks });
 });
 
 app.get('/committees', (req, res) => {
@@ -20,6 +21,7 @@ app.get('/committees', (req, res) => {
     const industry = JSON.parse(fs.readFileSync('content/industry.json'));
     const student = JSON.parse(fs.readFileSync('content/student.json'));
     const phdSymposium = JSON.parse(fs.readFileSync('content/phd-symposium.json'));
+
     var options = {
         route: "committees",
         patrons: patrons,
@@ -35,8 +37,9 @@ app.get('/committees', (req, res) => {
     res.render('committees', options);
 });
 
-app.get('/call-for-papers', (req, res) => {
-    res.render('cfp', { route: "cfp" });
+app.get('/authors', (req, res) => {
+    const tracks = JSON.parse(fs.readFileSync('content/tracks.json'));
+    res.render('cfp', { route: "cfp", tracks: tracks });
 });
 
 app.get('*', (req, res) => {
