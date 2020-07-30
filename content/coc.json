@@ -1,5 +1,16 @@
 {
-    "Core Organising Committee": [],
+    "Core Organising Committee": [
+        {
+            "name": "Dr. Appina Balasubramanyam",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/appina.jpg"
+        },
+        {
+            "name": "Dr. Srijith K",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/srijith.jpg"
+        }
+    ],
     "Registration Committee": [
         {
             "name": "Dr. Kalpana P",

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Dr. Neetesh Purohit",
+        "institute": "IIIT Allahabad",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Aditya Trivedi",
+        "institute": "IIITM Gwalior",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Shekhar Verma",
+        "institute": "IIIT Allahabad",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Kondekar P N",
+        "institute": "IIITDM Jabalpur",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Karm Veer Arya",
+        "institute": "IIITM Gwalior",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. M Sreekumar",
+        "institute": "IIITDM Kancheepuram",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Rajat Kumar Singh",
+        "institute": "IIIT Allahabad",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Matadeen Bansal",
+        "institute": "IIITDM Jabalpur",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Satish Singh",
+        "institute": "IIIT Allahabad",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Kusum Kumari Bharti",
+        "institute": "IIITDM Jabalpur",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Vrijendra Singh",
+        "institute": "IIIT Allahabad",
+        "image": "images/directors/majhi.jpg"
+    },
+    {
+        "name": "Dr. Binsu J Kailath",
+        "institute": "IIITDM Kancheepuram",
+        "image": "images/directors/majhi.jpg"
+    }
+]

@@ -1,0 +1,45 @@
+<%- include('partials/header') %>
+
+<body>
+    <%- include('partials/menu') %>
+    <section
+        class="container-fluid px-0 bg-img bg-catskill-white d-flex flex-column justify-content-center justify-content-sm-start">
+        <%- include('partials/alert.ejs') %>
+        <%- include('partials/nav.ejs') %>
+        <header class="jumbotron container expand jumbotron-fluid bg-transparent expand mb-0 px-4 px-sm-0">
+            <div class="row mx-0 mb-5">
+                <div class="col-5 col-sm-2 pl-0">
+                    <img src="images/IEEE_logo.svg" class="img-fluid" alt="IEEE Logo">
+                </div>
+                <div class="col-5 col-sm-2 pl-0 ml-3 ml-sm-5">
+                    <img src="images/logo-1.png" class="img-fluid" alt="CICT Logo">
+                </div>
+            </div>
+            <hr class="border-0 my-5"
+                style="height: 3px; background-image: linear-gradient(to right, rgba(0, 104, 148, 0.75), rgba(0, 104, 148, 0));">
+            <h1 class="font-size-4">About</h1>
+        </header>
+    </section>
+    <section class="container-fluid py-5">
+        <div class="container expand pt-5 mt-5">
+            <h1 class="font-size-2 text-bahama-blue font-weight-bold">About CICT</h1>
+            <p class="font-size-1 text-secondary">The Conference on Information and Communication Technology (CICT) is
+                the annual
+                flagship conference jointly organized by the five Ministry of Human Resources Development (MHRD)-funded
+                Indian Institutes of Information Technology (IIITs) namely, Atal Bihari Vajpayee Indian Institute of
+                Information Technology and Management (ABV-IIITM) Gwalior, IIIT Allahabad, PDPM - Indian Institute of
+                Information Technology Design and Manufacturing (IIITDM) Jabalpur, IIITDM Kancheepuram and IIITDM
+                Kurnool. CICT aims to provide a forum for researchers, industry professionals, and academicians to
+                present and exchange their ideas in latest technological advancements and innovations in the field of
+                Information and Communication Technology.</p>
+        </div>
+        <div class="container expand py-5 my-5">
+            <h1 class="font-size-2 text-bahama-blue font-weight-bold">CICT History</h1>
+            <ul class="text-secondary list-unstyled font-size-1">
+                <li class="my-1">2019 IIIT Allahabad</li>
+                <li class="my-1">2018 PDPM-IIITDM Jabalpur</li>
+                <li class="my-1">2017 ABV-IIITM Gwalior</li>
+            </ul>
+        </div>
+    </section>
+    <%- include('partials/footer') %>

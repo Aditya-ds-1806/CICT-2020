@@ -100,7 +100,7 @@
                     <li class="nav-item my-2 mr-3 text-uppercase order-2 order-sm-3" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="organising-chairs-tab" data-toggle="tab"
                             href="#organisingChairs" role="tab" aria-controls="organisingChairs"
-                            aria-selected="false">Organising Chairs</a>
+                            aria-selected="false">Organising Chair</a>
                     </li>
                     <li class="nav-item my-2 mr-3 text-uppercase order-5 order-sm-4" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="technical-tab" data-toggle="tab"
@@ -156,8 +156,7 @@
             </div>
             <div class="tab-pane fade text-secondary" id="steering" role="tabpanel"
                 aria-labelledby="general-chairs-tab">
-                Steering committee
-                <%- //include('partials/steering-committee', {gc: gc}) %>
+                <%- include('partials/steering-committee', {steering: steering}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="advisory" role="tabpanel" aria-labelledby="advisory-tab">
                 Advisory Committee

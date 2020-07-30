@@ -280,10 +280,10 @@ footer img.img-fluid {
 
 .close-menu,
 .open-menu {
-    -webkit-animation-duration: 1000ms;
-    animation-duration: 1000ms;
-    -webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-animation-duration: 600ms;
+    animation-duration: 600ms;
+    -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -300,40 +300,48 @@ footer img.img-fluid {
 
 @-webkit-keyframes close {
     from {
+        opacity: 1;
         transform: translateX(0%);
     }
 
     to {
+        opacity: 0;
         transform: translateX(-100%);
     }
 }
 
 @keyframes close {
     from {
+        opacity: 1;
         transform: translateX(0%);
     }
 
     to {
+        opacity: 0;
         transform: translateX(-100%);
     }
 }
 
 @-webkit-keyframes open {
     from {
+        opacity: 0;
         transform: translateX(-100%);
     }
 
     to {
+        opacity: 1;
         transform: translateX(0%);
     }
 }
 
 @keyframes open {
     from {
+        opacity: 0;
         transform: translateX(-100%);
     }
 
     to {
+        opacity: 1;
         transform: translateX(0%);
     }
 }

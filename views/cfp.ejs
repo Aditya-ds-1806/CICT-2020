@@ -3,16 +3,23 @@
 
 <body>
     <%- include('partials/menu') %>
-    <section class="container-fluid vh-100 px-0 bg-img bg-catskill-white d-flex flex-column">
+    <section class="container-fluid px-0 bg-img bg-catskill-white d-flex flex-column">
         <%- include('partials/alert.ejs') %>
         <%- include('partials/nav.ejs') %>
-        <div class="jumbotron container expand jumbotron-fluid bg-transparent expand mb-0 px-4 px-sm-0">
-            <header class="mt-sm-4">
-                <h1 class="font-size-3 w-md-75 w-lg-50"><span class="underline-bahama-blue-lg">Call for Papers</span>
-                </h1>
-                <h1 class="font-size-2 mt-4">IEEE Conference Record Number: 48419</h1>
-            </header>
-        </div>
+        <header class="jumbotron container expand jumbotron-fluid bg-transparent expand mb-0 px-4 px-sm-0">
+            <div class="row mx-0 mb-5">
+                <div class="col-5 col-sm-2 pl-0">
+                    <img src="images/IEEE_logo.svg" class="img-fluid" alt="IEEE Logo">
+                </div>
+                <div class="col-5 col-sm-2 pl-0 ml-3 ml-sm-5">
+                    <img src="images/logo-1.png" class="img-fluid" alt="CICT Logo">
+                </div>
+            </div>
+            <hr class="border-0 my-5"
+                style="height: 3px; background-image: linear-gradient(to right, rgba(0, 104, 148, 0.75), rgba(0, 104, 148, 0));">
+            <h1 class="font-size-4">Call for Papers</h1>
+            <h1 class="font-size-2 mt-4">IEEE Conference Record Number: 48419</h1>
+        </header>
         <div class="row mx-0 row-cols-2 row-cols-sm-6 mt-auto justify-content-end text-center">
             <div class="py-4 bg-bahama-blue">
                 <div class="col border-right py-4 opacity-20">
@@ -43,7 +50,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
 
     <section class="container-fluid bg-white py-5">
@@ -69,29 +75,28 @@
                         class="btn btn-outline-bahama-blue font-size-1 text-uppercase font-weight-bold my-5">conference
                         tracks</button>
                 </div>
-                <%- include('partials/topics', {tracks}) %>
+                <div class="container-fluid">
+                    <%- include('partials/topics', {tracks: tracks}) %>
+                </div>
                 <div class="my-5 py-5">
-                    <h1 class="font-size-2 text-bahama-blue font-weight-bold">Paper Submission</h1>
+                    <h1 class="font-size-2 text-bahama-blue font-weight-bold">Submission Guidelines</h1>
                     <p class="font-size-1">
                         Paper Submission Full length (up to six pages long) PDF manuscripts can be submitted on
-                        EASYCHAIR .
-                        Manuscript templates
-                        for LaTeX and Microsoft Word are at IEEE. All submissions must be in English only. Full details
-                        of
-                        submission procedures
-                        and requirements for authors of accepted papers are available at submission guidelines. Accepted
-                        papers will be
+                        EASYCHAIR. Manuscript templates for LaTeX and Microsoft Word are at IEEE. All submissions must
+                        be in English only. Full details of submission procedures and requirements for authors of
+                        accepted papers are available at submission guidelines. Accepted papers will be
                         submitted for inclusion into IEEE Xplore.</p>
                     <a href="" class="text-bahama-blue font-size-1 font-weight-medium">Submission page URL: Easy
                         Chair</a>
                 </div>
                 <div>
-                    <h1 class="font-size-2 text-bahama-blue font-weight-bold">Guidelines for Camera Ready Submission
+                    <h1 class="font-size-2 text-bahama-blue font-weight-bold">Important Dates
                     </h1>
-                    <ul class="list-unstyled">
-                        <li>First of all register for the conference ( registration link will be uploaded soon).</li>
-                        <li> Send the scan copy of registration detail including completed registration form and payment
-                            slip in advance to cict2020@iiitdm.ac.in. </li>
+                    <ul class="list-unstyled font-size-1">
+                        <li>Full Paper Submission Deadline: <strong>August 31, 2020</strong></li>
+                        <li>Notification of Paper Acceptance: <strong>October 15, 2020</strong></li>
+                        <li>Early Bird Registration: <strong>October 31, 2020</strong></li>
+                        <li>Camera ready Submission Deadline: <strong>October 31, 2020</strong></li>
                     </ul>
                 </div>
             </main>

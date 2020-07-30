@@ -8,7 +8,12 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     const speakers = JSON.parse(fs.readFileSync('content/speakers.json'));
     const tracks = JSON.parse(fs.readFileSync('content/tracks.json'));
-    res.render('index', { route: "index", speakers: speakers, tracks: tracks });
+    const updates = JSON.parse(fs.readFileSync('content/updates.json'));
+    res.render('index', { route: "index", speakers: speakers, tracks: tracks, updates: updates });
+});
+
+app.get('/about', (req, res) => {
+    res.render('about', { route: "about" });
 });
 
 app.get('/committees', (req, res) => {
@@ -21,6 +26,7 @@ app.get('/committees', (req, res) => {
     const industry = JSON.parse(fs.readFileSync('content/industry.json'));
     const student = JSON.parse(fs.readFileSync('content/student.json'));
     const phdSymposium = JSON.parse(fs.readFileSync('content/phd-symposium.json'));
+    const steering = JSON.parse(fs.readFileSync('content/steering.json'))
 
     var options = {
         route: "committees",
@@ -32,7 +38,8 @@ app.get('/committees', (req, res) => {
         wie: wie,
         phdSymposium: phdSymposium,
         industry: industry,
-        student: student
+        student: student,
+        steering: steering
     }
     res.render('committees', options);
 });
