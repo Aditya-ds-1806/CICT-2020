@@ -2,61 +2,61 @@
     {
         "name": "Dr. Neetesh Purohit",
         "institute": "IIIT Allahabad",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/neetesh.jpg"
     },
     {
         "name": "Dr. Aditya Trivedi",
         "institute": "IIITM Gwalior",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/aditya.jpg"
     },
     {
         "name": "Dr. Shekhar Verma",
         "institute": "IIIT Allahabad",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/sverma.jpg"
     },
     {
         "name": "Dr. Kondekar P N",
         "institute": "IIITDM Jabalpur",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/pnkondekar.jpg"
     },
     {
         "name": "Dr. Karm Veer Arya",
         "institute": "IIITM Gwalior",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/karm-veer.jpg"
     },
     {
         "name": "Dr. M Sreekumar",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/faculty/sreekumar.jpg"
     },
     {
         "name": "Dr. Rajat Kumar Singh",
         "institute": "IIIT Allahabad",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/rks.jpg"
     },
     {
         "name": "Dr. Matadeen Bansal",
         "institute": "IIITDM Jabalpur",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/matadeen.jpg"
     },
     {
         "name": "Dr. Satish Singh",
         "institute": "IIIT Allahabad",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/sathish.jpg"
     },
     {
         "name": "Dr. Kusum Kumari Bharti",
         "institute": "IIITDM Jabalpur",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/bharti.jpg"
     },
     {
         "name": "Dr. Vrijendra Singh",
         "institute": "IIIT Allahabad",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/external/vrijendra.jpg"
     },
     {
         "name": "Dr. Binsu J Kailath",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/directors/majhi.jpg"
+        "image": "images/faculty/bkailath.jpg"
     }
 ]
