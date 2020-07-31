@@ -1,25 +1,55 @@
 <aside
-    class="fixed-top text-white font-size-1 left-0 top-0 bottom-0 bg-bahama-blue border-right border-light w-75 w-md-50 w-lg-33 w-xl-25 py-5 my-0"
-    style="z-index: 1; transform: translateX(-100%);">
-    <div class="text-right mb-5 mr-5">
-        <i data-feather="x-circle" width="2.5rem" height="2.5rem" role="button" id="close"
-            onclick="this.parentElement.parentElement.classList.remove('open-menu'); this.parentElement.parentElement.classList.add('close-menu')"></i>
+    class="fixed-top text-white font-size-1 left-0 top-0 bottom-0 bg-bahama-blue w-75 w-md-50 w-lg-33 w-xl-25 pb-5 my-0"
+    style="z-index: 1; transform: translateX(-100%); overflow-y: auto">
+    <div class="text-right py-5 pr-5 sticky-top bg-bahama-blue">
+        <i data-feather="x-circle" width="2.5rem" height="2.5rem" role="button" id="close" style="z-index: 2;"></i>
     </div>
     <ul class="list-unstyled">
-        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-3" href="/">
+        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-" href="/">
             <li>Home</li>
         </a>
-        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-3" href="/about">
+        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-" href="/about">
             <li>About</li>
         </a>
-        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-3" href="/committees">
+        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-" href="/committees">
             <li>Committees</li>
         </a>
-        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-3" href="/authors">
+        <a class="menu-item text-white font-weight-medium d-block px-4 py-3" id="auth-btn" href="#">
             <li>For Authors</li>
         </a>
-        <a class="menu-item text-white font-weight-medium d-block px-4 py-3 my-3" href="#">
+        <ul class="list-unstyled d-none" id="authors">
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Call for Papers</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Submission Guidelines</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Special Sessions</li>
+            </a>
+        </ul>
+        <a class="menu-item text-white font-weight-medium d-block px-4 py-3" id="prog-btn" href="#">
             <li>Programme</li>
         </a>
+        <ul class="list-unstyled d-none" id="programs">
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Overview</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Keynote Talks</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Special Sessions</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Tutorials</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>WiE Forum</li>
+            </a>
+            <a href="" class="menu-item text-white font-weight-medium d-block px-4 py-3 my-">
+                <li>Industry Forum</li>
+            </a>
+        </ul>
     </ul>
 </aside>

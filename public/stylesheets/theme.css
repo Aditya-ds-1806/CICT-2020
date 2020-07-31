@@ -26,8 +26,12 @@ body {
     background-position: center;
 }
 
-.opacity-20 {
+.opacity-white-20 {
     border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.opacity-blue-30 {
+    border-color: rgba(0, 104, 148, 0.3) !important;
 }
 
 a:hover {
