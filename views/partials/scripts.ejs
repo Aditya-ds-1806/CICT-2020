@@ -32,7 +32,9 @@
 <script>
     document.querySelectorAll('section ul>li>a').forEach(pill => pill.addEventListener('click', function () { document.querySelector("#topic").textContent = this.textContent }));
 </script>
-<% } else if(typeof route !== 'undefined' && route === 'cfp') { %>
+<% } %>
+
+<!-- menu -->
 <script>
     window.onload = function () {
         var authors = $('#authors');
@@ -65,4 +67,3 @@
     }
 
 </script>
-<% } %>
