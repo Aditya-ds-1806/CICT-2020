@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Dr. Sounaka Mishra",
+        "institute": "IIT Madras",
+        "image": "images/external/sounaka.jpg",
+        "website": "https://www.iitm.ac.in/info/fac/sounak"
+    },
+    {
+        "name": "Dr. Manoj Changat",
+        "institute": "University of Kerala",
+        "image": "images/external/manoj.jpg",
+        "website": "https://www.keralauniversity.ac.in/dept/~mchangat"
+    },
+    {
+        "name": "Dr. Samar K. Saha",
+        "institute": "Chief Scientist, Prospicient Devices, USA",
+        "image": "images/external/saha.jpg",
+        "website": "https://site.ieee.org/indonesia-eds/distinguished-lecturers/samar-k-saha/"
+    },
+    {
+        "name": "Dr. S. Raghavan",
+        "institute": "Retd. Professor, NIT Trichy",
+        "image": "images/external/raghavan.jpg",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/professors/raghavan/"
+    }
+]

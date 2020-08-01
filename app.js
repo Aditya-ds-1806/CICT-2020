@@ -18,6 +18,7 @@ app.get('/about', (req, res) => {
 
 app.get('/committees', (req, res) => {
     const patrons = JSON.parse(fs.readFileSync('content/patrons.json'));
+    const advisory = JSON.parse(fs.readFileSync('content/advisory.json'));
     const gc = JSON.parse(fs.readFileSync('content/general-chairs.json'));
     const oc = JSON.parse(fs.readFileSync('content/oc.json'));
     const trc = JSON.parse(fs.readFileSync('content/trc.json'));
@@ -39,7 +40,8 @@ app.get('/committees', (req, res) => {
         phdSymposium: phdSymposium,
         industry: industry,
         student: student,
-        steering: steering
+        steering: steering,
+        advisory: advisory
     }
     res.render('committees', options);
 });

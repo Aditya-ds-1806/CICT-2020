@@ -274,6 +274,10 @@ footer img.img-fluid {
 }
 
 /* menu */
+.hide-menu {
+    transform: translateX(-100%);
+}
+
 .menu-item:hover {
     background-color: #fff;
     color: var(--dark-blue) !important;
@@ -302,54 +306,105 @@ footer img.img-fluid {
     animation-name: close;
 }
 
-@-webkit-keyframes close {
-    from {
-        opacity: 1;
-        transform: translateX(0%);
+@media(min-width: 576px) {
+    @-webkit-keyframes close {
+        from {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+
+        to {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
     }
 
-    to {
-        opacity: 0;
-        transform: translateX(-100%);
+    @keyframes close {
+        from {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+
+        to {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+    }
+
+    @-webkit-keyframes open {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes open {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+        }
     }
 }
 
-@keyframes close {
-    from {
-        opacity: 1;
-        transform: translateX(0%);
+@media(max-width: 576px) {
+    @-webkit-keyframes close {
+        from {
+            opacity: 1;
+            transform: translateX(calc(100vw - 100%));
+        }
+
+        to {
+            opacity: 0;
+            transform: translateX(100vw);
+        }
     }
 
-    to {
-        opacity: 0;
-        transform: translateX(-100%);
+    @keyframes close {
+        from {
+            opacity: 1;
+            transform: translateX(calc(100vw - 100%));
+        }
+
+        to {
+            opacity: 0;
+            transform: translateX(100vw);
+        }
+    }
+
+    @-webkit-keyframes open {
+        from {
+            opacity: 0;
+            transform: translateX(100vw);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(calc(100vw - 100%));
+        }
+    }
+
+    @keyframes open {
+        from {
+            opacity: 0;
+            transform: translateX(100vw);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(calc(100vw - 100%));
+        }
     }
 }
-
-@-webkit-keyframes open {
-    from {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
-@keyframes open {
-    from {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
 
 /* widths */
 .w-33 {

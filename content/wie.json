@@ -3,5 +3,10 @@
         "name": "Dr. Priyanka Kokil",
         "image": "images/faculty/kokil.jpg",
         "institute": "IIITDM Kancheepuram"
+    },
+    {
+        "name": "Dr. Kalpana P",
+        "institute": "IIITDM Kancheepuram",
+        "image": "images/faculty/kalpana.jpg"
     }
 ]

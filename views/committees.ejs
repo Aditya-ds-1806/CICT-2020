@@ -78,61 +78,61 @@
                 <h5 class="font-weight-bold position-relative">Select<i data-feather="chevron-down"
                         class="arrow ml-2"></i></h5>
                 <ul class="nav nav-pills d-flex flex-row mt-2" id="myTab" role="tablist">
-                    <li class="nav-item my-2 mr-3 text-uppercase order-0" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold active" id="patrons-tab" data-toggle="tab"
                             href="#patrons" role="tab" aria-controls="patrons" aria-selected="true">Patrons</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-1" role="presentation">
-                        <a class="nav-link font-size-1 font-weight-bold" id="general-chairs-tab" data-toggle="tab"
-                            href="#generalChairs" role="tab" aria-controls="generalChairs" aria-selected="false">General
-                            Chairs</a>
-                    </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-4 order-sm-2" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="steering-tab" data-toggle="tab"
                             href="#steering" role="tab" aria-controls="steering" aria-selected="false">Steering
                             Committee</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-4 order-sm-2" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="advisory-tab" data-toggle="tab"
                             href="#advisory" role="tab" aria-controls="advisory" aria-selected="false">Advisory
                             Committee</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-2 order-sm-3" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
+                        <a class="nav-link font-size-1 font-weight-bold" id="general-chairs-tab" data-toggle="tab"
+                            href="#generalChairs" role="tab" aria-controls="generalChairs" aria-selected="false">General
+                            Chairs</a>
+                    </li>
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="organising-chairs-tab" data-toggle="tab"
                             href="#organisingChairs" role="tab" aria-controls="organisingChairs"
                             aria-selected="false">Organising Chair</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-5 order-sm-4" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="technical-tab" data-toggle="tab"
                             href="#technical" role="tab" aria-controls="technical" aria-selected="false">Technical
                             Program Committee</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-6 order-sm-5" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="phd-symposium-tab" data-toggle="tab"
                             href="#phdSymposium" role="tab" aria-controls="phdSymposium" aria-selected="false">PhD
                             Symposium Chairs</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="track-chairs-tab" data-toggle="tab"
                             href="#trackChairs" role="tab" aria-controls="trackChairs" aria-selected="false">Track
                             Chairs</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="wie-tab" data-toggle="tab" href="#wie"
                             role="tab" aria-controls="wie" aria-selected="false">WiE
-                            Committee</a>
+                            Chairs</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-3 order-sm-6" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="industry-tab" data-toggle="tab"
                             href="#industry" role="tab" aria-controls="industry" aria-selected="false">Industry Forum
-                            Committee</a>
+                            Chairs</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-7" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="organizing-tab" data-toggle="tab"
                             href="#organizing" role="tab" aria-controls="organizing" aria-selected="false">Conference
                             Organising Committee</a>
                     </li>
-                    <li class="nav-item my-2 mr-3 text-uppercase order-7" role="presentation">
+                    <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold" id="student-tab" data-toggle="tab"
                             href="#student" role="tab" aria-controls="student" aria-selected="false">Student
                             Management Committee</a>
@@ -159,8 +159,7 @@
                 <%- include('partials/steering-committee', {steering: steering}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="advisory" role="tabpanel" aria-labelledby="advisory-tab">
-                Advisory Committee
-                <%- //include('partials/advisory-committee', {trc: trc}) %>
+                <%- include('partials/advisory-committee', {advisory: advisory}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="organisingChairs" role="tabpanel"
                 aria-labelledby="organising-chairs-tab">

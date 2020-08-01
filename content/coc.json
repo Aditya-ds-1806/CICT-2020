@@ -28,7 +28,18 @@
             "image": "images/faculty/shubhankar.jpg"
         }
     ],
-    "Finance Committee": [],
+    "Finance Committee": [
+        {
+            "name": "Dr. Srijith K",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/srijith.jpg"
+        },
+        {
+            "name": "Dr. Binsu Kailath",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/bkailath.jpg"
+        }
+    ],
     "Programs and Events Committee": [
         {
             "name": "Dr. S Jayavel",

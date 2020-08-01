@@ -9,10 +9,10 @@
         <header class="jumbotron container expand jumbotron-fluid bg-transparent expand mb-0 px-4 px-sm-0">
             <div class="row mx-0 mb-5">
                 <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 mt-3 px-0">
-                    <img src="images/IEEE_logo.svg"
+                    <img loading="lazy" src="images/IEEE_logo.svg"
                         class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-50"
-                        alt="IEEE Logo"><img src="images/logo-1.png" class="img-fluid pl-4 w-33 d-inline-block"
-                        alt="CICT Logo">
+                        alt="IEEE Logo"><img loading="lazy" src="images/logo-1.png"
+                        class="img-fluid pl-4 w-33 d-inline-block" alt="CICT Logo">
                 </div>
             </div>
             <hr class="border-0 my-5"
@@ -78,7 +78,7 @@
                 <div class="container-fluid">
                     <%- include('partials/topics', {tracks: tracks}) %>
                 </div>
-                <div class="my-5 py-5">
+                <div class="my-5 py-5" id="guidelines">
                     <h1 class="font-size-2 text-bahama-blue font-weight-bold">Submission Guidelines</h1>
                     <p class="font-size-1">
                         Paper Submission Full length (up to six pages long) PDF manuscripts can be submitted on
@@ -89,7 +89,7 @@
                     <a href="" class="text-bahama-blue font-size-1 font-weight-medium">Submission page URL: Easy
                         Chair</a>
                 </div>
-                <div>
+                <div id="dates">
                     <h1 class="font-size-2 text-bahama-blue font-weight-bold">Important Dates
                     </h1>
                     <ul class="list-unstyled font-size-1">

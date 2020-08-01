@@ -19,7 +19,7 @@
 <script>
     const child = document.querySelector('#child');
     const parent = document.querySelector('#parent');
-    document.body.onload = adjustMarginBottom;
+    window.addEventListener('load', adjustMarginBottom);
     window.addEventListener('resize', adjustMarginBottom);
     window.addEventListener('orientationchange', adjustMarginBottom);
 
@@ -28,7 +28,7 @@
         else child.style.marginBottom = 0;
     }
 </script>
-<% } else if (typeof route !== 'undefined' && route === 'committees') { %>
+<% } else if (typeof route !== 'undefined' && route === 'commit tees') { %>
 <script>
     document.querySelectorAll('section ul>li>a').forEach(pill => pill.addEventListener('click', function () { document.querySelector("#topic").textContent = this.textContent }));
 </script>
