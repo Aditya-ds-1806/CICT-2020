@@ -1,7 +1,9 @@
-<a href="<%= person.website %>">
+<a href="<%= person.website %>" target="_blank">
     <div class="card bg-transparent text-white border-0 rounded-0 h-100">
+        <% if(person.image !== '') { %>
         <img loading="lazy" src="<%= person.image %>" class="card-img-top rounded-0 border-0 m-0"
             alt="<%= person.name %>">
+        <% } %>
         <div class="card-body border-bottom-bahama-blue rounded rounded-0 text-bahama-blue">
             <h5 class="card-title font-weight-bold mb-0"><%= person.name %></h5>
             <p class="small mb-0"><%= person.institute %></p>

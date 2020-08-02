@@ -3,119 +3,140 @@
         {
             "name": "Dr. Appina Balasubramanyam",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/appina.jpg"
+            "image": "images/faculty/appina.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?appina@iiitdm.ac.in"
         },
         {
             "name": "Dr. Srijith K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/srijith.jpg"
+            "image": "images/faculty/srijith.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?srijith@iiitdm.ac.in"
         }
     ],
     "Registration Committee": [
         {
             "name": "Dr. Kalpana P",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/kalpana.jpg"
+            "image": "images/faculty/kalpana.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?kalpana@iiitdm.ac.in"
         },
         {
             "name": "Dr. Siva Prasad A V S",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/siva-prasad.jpg"
+            "image": "images/faculty/siva-prasad.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?avs@iiitdm.ac.in"
         },
         {
             "name": "Dr. Shubhankar Chakraborty",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/shubhankar.jpg"
+            "image": "images/faculty/shubhankar.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?shubhankar@iiitdm.ac.in"
         }
     ],
     "Finance Committee": [
         {
             "name": "Dr. Srijith K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/srijith.jpg"
+            "image": "images/faculty/srijith.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?srijith@iiitdm.ac.in"
         },
         {
             "name": "Dr. Binsu Kailath",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/bkailath.jpg"
+            "image": "images/faculty/bkailath.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?bkailath@iiitdm.ac.in"
         }
     ],
     "Programs and Events Committee": [
         {
             "name": "Dr. S Jayavel",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/jayavel.jpg"
+            "image": "images/faculty/jayavel.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?sjv@iiitdm.ac.in"
         },
         {
             "name": "Dr. Shubhankar Chakraborty",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/shubhankar.jpg"
+            "image": "images/faculty/shubhankar.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?shubhankar@iiitdm.ac.in"
         },
         {
             "name": "Dr. Venkata Timmaraju Mallina",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/vt-mallina.jpg"
+            "image": "images/faculty/vt-mallina.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?vtmallina@iiitdm.ac.in"
         },
         {
             "name": "Dr. Jagadish Kakarla",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/kakarla.jpg"
+            "image": "images/faculty/kakarla.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?jagadeeshk@iiitdm.ac.in"
         },
         {
             "name": "Dr. Avinash Kumar",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/avinash.jpg"
+            "image": "images/faculty/avinash.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?avikr@iiitdm.ac.in"
         },
         {
             "name": "Dr. AVS Siva Prasad",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/siva-prasad.jpg"
+            "image": "images/faculty/siva-prasad.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?avs@iiitdm.ac.in"
         }
     ],
     "Proceedings Committee": [
         {
             "name": "Dr. B Chitti Babu",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/chitti-babu.jpg"
+            "image": "images/faculty/chitti-babu.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?bcbabu@iiitdm.ac.in"
         },
         {
             "name": "Dr. Tejendra Dixit",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/tejendra-dixit.jpg"
+            "image": "images/faculty/tejendra-dixit.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?tdixit@iiitdm.ac.in"
         },
         {
             "name": "Dr. Vivek Kumar",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/vivek.jpg"
+            "image": "images/faculty/vivek.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?vivek@iiitdm.ac.in"
         }
     ],
     "Certificate and Awards Committee": [
         {
             "name": "Dr. Jayabal K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/jayabal.jpg"
+            "image": "images/faculty/jayabal.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?jayabal@iiitdm.ac.in"
         },
         {
             "name": "Dr. Karthick S",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/karthick.jpg"
+            "image": "images/faculty/karthick.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?karthick@iiitdm.ac.in"
         }
     ],
     "Publicity, Media and Sponsorship Committee": [
         {
             "name": "Dr. Selvaraj M D",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/selvaraj.jpg"
+            "image": "images/faculty/selvaraj.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?selvaraj@iiitdm.ac.in"
         },
         {
             "name": "Dr. Asutosh Kar",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/asutosh-kar.jpg"
+            "image": "images/faculty/asutosh-kar.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?asutoshkar@iiitdm.ac.in"
         },
         {
             "name": "Dr. Kumar Prasannajit Pradhan",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/pradhan.jpg"
+            "image": "images/faculty/pradhan.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?kppradhan@iiitdm.ac.in"
         }
     ]
 }

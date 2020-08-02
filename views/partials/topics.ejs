@@ -1,13 +1,17 @@
-<% const p = ["pr-lg-5", "px-lg-5", "pl-lg-5"] %>
+<% 
+const p = ["pr-lg-5", "px-lg-5", "pl-lg-5"];
+var border = "border-bottom-secondary";
+if(route !== 'undefined' && route === 'index') border = "border-bottom-bahama-blue";
+%>
 
-<div class="row">
-    <% for(let i = 0; i < 3; i++) { %>
-    <div class="col-md-4 <%= p[i] %>">
-        <% for(let j = i; j < tracks.length; j = j + 3) { %>
-        <div class="border-bottom-bahama-blue mb-5 mb-md-4">
-            <p class="lead w-75 w-md-100 font-weight-regular mb-2"><%= tracks[j] %> </p>
+<div class="row row-cols-1 row-cols-md-3">
+    <% for(let j = 0; j < tracks.length; j++) { %>
+    <div class="col mb-5 mb-md-4 <%= p[j % 3] %>">
+        <div class="card h-100 border-0">
+            <div class="card-body <%= border %> px-0">
+                <p class="lead w-75 w-md-100 font-weight-regular mb-0"><%= tracks[j] %></p>
+            </div>
         </div>
-        <% } %>
     </div>
     <% } %>
 </div>

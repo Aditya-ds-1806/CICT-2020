@@ -2,11 +2,13 @@
     {
         "name": "Dr. Sathish  Singh",
         "institute": "IIIT Allahabad",
-        "image": "images/external/sathish.jpg"
+        "image": "images/external/sathish.jpg",
+        "website": "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh"
     },
     {
         "name": "Dr. M Sreekumar",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/faculty/sreekumar.jpg"
+        "image": "images/faculty/sreekumar.jpg",
+        "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?msk@iiitdm.ac.in"
     }
 ]

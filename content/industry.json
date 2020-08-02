@@ -2,16 +2,19 @@
     {
         "name": "Dr. Sudhir Varadarajan",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/faculty/sudhir.jpg"
+        "image": "images/faculty/sudhir.jpg",
+        "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?sudhir@iiitdm.ac.in"
     },
     {
         "name": "Dr. Anand Lakshmanan",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/faculty/anand.jpg"
+        "image": "images/faculty/anand.jpg",
+        "website": "https://www.linkedin.com/in/anandlakshmananchennai?originalSubdomain=in"
     },
     {
-        "name": "Dr. Raghuraman M",
+        "name": "Dr. Raguraman M",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/faculty/raguraman.jpg"
+        "image": "images/faculty/raguraman.jpg",
+        "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?raguraman.munusamy@iiitdm.ac.in"
     }
 ]

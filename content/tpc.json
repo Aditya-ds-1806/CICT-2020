@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Dr. Akhilesh Tiwari",
+        "institute": "IIIT Allahabad",
+        "image": "",
+        "website": "https://profile.iiita.ac.in/atiwari/"
+    },
+    {
+        "name": "Dr. Aparajita Ojha",
+        "institute": "IIITDM Jabalpur",
+        "image": "",
+        "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=aojha@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Eswaramoorthy K V",
+        "institute": "IIITDM Kurnool",
+        "image": "",
+        "website": "http://iiitk.ac.in/faculty/Dr.-Eswaramoorthy-K.-V"
+    },
+    {
+        "name": "G C Nandi",
+        "institute": "IIIT Allahabad",
+        "image": "",
+        "website": "https://robita.iiita.ac.in/pgcn.php"
+    },
+    {
+        "name": "Dr. K K Pattanaik",
+        "institute": "IIITM Gwalior",
+        "image": "",
+        "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.KKPattanaik"
+    },
+    {
+        "name": "Dr. Nikhil K S",
+        "institute": "NITK Surathkal",
+        "image": "",
+        "website": "https://ece.nitk.ac.in/professor/nikhil-k-s"
+    },
+    {
+        "name": "Dr. O P Vyas",
+        "institute": "IIIT Allahabad",
+        "image": "",
+        "website": "https://cvo.iiita.ac.in/?pg=contactus"
+    },
+    {
+        "name": "Dr. Pramod Kumar Singh",
+        "institute": "IIITM Gwalior",
+        "image": "",
+        "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PKSingh"
+    },
+    {
+        "name": "Dr. Pritee Khanna",
+        "institute": "IIITDM Jabalpur",
+        "image": "",
+        "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Sanjai Singh",
+        "institute": "IIIT Allahabad",
+        "image": "",
+        "website": "https://ece.iiita.ac.in/faculty.php"
+    },
+    {
+        "name": "Dr. Sudharshan",
+        "institute": "NIT Trichy",
+        "image": "",
+        "website": "http://nitt.irins.org/profile/150062"
+    },
+    {
+        "name": "Dr. Vasundhara",
+        "institute": "NIT Warangal",
+        "image": "",
+        "website": "https://www.nitw.ac.in/faculty/id/17061/"
+    },
+    {
+        "name": "Dr Varun P. Gopi",
+        "institute": "NIT Trichy",
+        "image": "",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/asstprof/varun/"
+    }
+]

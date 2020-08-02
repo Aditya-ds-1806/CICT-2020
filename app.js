@@ -27,7 +27,8 @@ app.get('/committees', (req, res) => {
     const industry = JSON.parse(fs.readFileSync('content/industry.json'));
     const student = JSON.parse(fs.readFileSync('content/student.json'));
     const phdSymposium = JSON.parse(fs.readFileSync('content/phd-symposium.json'));
-    const steering = JSON.parse(fs.readFileSync('content/steering.json'))
+    const steering = JSON.parse(fs.readFileSync('content/steering.json'));
+    const tpc = JSON.parse(fs.readFileSync('content/tpc.json'));
 
     var options = {
         route: "committees",
@@ -41,7 +42,8 @@ app.get('/committees', (req, res) => {
         industry: industry,
         student: student,
         steering: steering,
-        advisory: advisory
+        advisory: advisory,
+        tpc: tpc
     }
     res.render('committees', options);
 });

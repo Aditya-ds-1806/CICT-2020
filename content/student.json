@@ -2,16 +2,19 @@
     {
         "name": "Samrat Nachiyappan",
         "institute": "UI/UX Designer",
-        "image": "images/students/samrat.jpg"
+        "image": "images/students/samrat.jpg",
+        "website": "https://www.linkedin.com/in/samrat-nachiyappan-62ba01148/"
     },
     {
         "name": "Aditya D.S.",
         "institute": "Web Developer",
-        "image": "images/students/aditya.jpg"
+        "image": "images/students/aditya.jpg",
+        "website": "https://www.linkedin.com/in/aditya-ds/"
     },
     {
         "name": "Narasimhan AVPL",
         "institute": "Content Writer",
-        "image": "images/students/narasimhan.jpg"
+        "image": "images/students/narasimhan.jpg",
+        "website": "https://www.linkedin.com/in/avpl-narasimhan-3123b216b/"
     }
 ]

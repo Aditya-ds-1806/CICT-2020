@@ -2,11 +2,13 @@
     {
         "name": "Dr. Priyanka Kokil",
         "image": "images/faculty/kokil.jpg",
-        "institute": "IIITDM Kancheepuram"
+        "institute": "IIITDM Kancheepuram",
+        "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?priyanka@iiitdm.ac.in"
     },
     {
         "name": "Dr. Kalpana P",
         "institute": "IIITDM Kancheepuram",
-        "image": "images/faculty/kalpana.jpg"
+        "image": "images/faculty/kalpana.jpg",
+        "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?kalpana@iiitdm.ac.in"
     }
 ]

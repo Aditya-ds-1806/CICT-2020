@@ -3,34 +3,40 @@
         {
             "name": "Dr. Tapas Sil",
             "image": "images/faculty/tapas-sil.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?tapassil@iiitdm.ac.in"
         },
         {
             "name": "Dr. P Pandithevan",
             "image": "images/faculty/pandithevan.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?ppthevan@iiitdm.ac.in"
         },
         {
             "name": "Dr. Kumar Prasannajit Pradhan",
             "image": "images/faculty/pradhan.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?kppradhan@iiitdm.ac.in"
         }
     ],
     "PhD Thesis Review Committee (PTRC)": [
         {
             "name": "Dr. Masilamani V",
             "image": "images/faculty/masilamani.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?masila@iiitdm.ac.in"
         },
         {
             "name": "Dr. Sivaselvan B",
             "image": "images/faculty/sivaselvan.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?sivaselvanb@iiitdm.ac.in"
         },
         {
             "name": "Dr. Selvaraj M D",
             "image": "images/faculty/selvaraj.jpg",
-            "institute": "IIITDM Kancheepuram"
+            "institute": "IIITDM Kancheepuram",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?selvaraj@iiitdm.ac.in"
         }
     ]
 }

@@ -3,84 +3,96 @@
         {
             "name": "Dr. Munesh Singh",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/munesh.jpg"
+            "image": "images/faculty/munesh.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?munesh.singh@iiitdm.ac.in"
         }
     ],
     "Big Data Analytics and Cloud Computing": [
         {
             "name": "Dr. Sivaselvan B",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/sivaselvan.jpg"
+            "image": "images/faculty/sivaselvan.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?sivaselvanb@iiitdm.ac.in"
         }
     ],
     "CoVID-19 Technologies and Data Analysis": [
         {
             "name": "Dr. Umarani Jayaraman",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/umarani.jpg"
+            "image": "images/faculty/umarani.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?umarani@iiitdm.ac.in"
         }
     ],
     "Circuits and Systems for Signal and Data processing": [
         {
             "name": "Dr. Bhupendra Singh Reniwal",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/reniwal.jpg"
+            "image": "images/faculty/reniwal.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?bhupendrar@iiitdm.ac.in"
         }
     ],
     "Digital Security and Information Privacy": [
         {
-            "name": "Dr. Noor Mohammed",
+            "name": "Dr. Noor Mahammad",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/noor.jpg"
+            "image": "images/faculty/noor.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?noor@iiitdm.ac.in"
         }
     ],
     "Theoretical Computer Science": [
         {
             "name": "Dr. Shalu M A",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/shalu.jpg"
+            "image": "images/faculty/shalu.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?shalu@iiitdm.ac.in"
         }
     ],
     "Internet of everything and Wireless Sensor networks": [
         {
             "name": "Dr. T S Hari Narayanan",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/tshari.jpg"
+            "image": "images/faculty/tshari.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?tsnarayanan@iiitdm.ac.in"
         }
     ],
     "Bio Inspired Computing and Neural Networks": [
         {
             "name": "Dr. Tejendra Dixit",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/tejendra-dixit.jpg"
+            "image": "images/faculty/tejendra-dixit.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?tdixit@iiitdm.ac.in"
         }
     ],
     "Next generation Communication Technologies": [
         {
             "name": "Dr. Prerna Saxena",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/prerna.jpg"
+            "image": "images/faculty/prerna.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?prerna.saxena@iiitdm.ac.in"
         }
     ],
     "ICT in Robotics and Automation": [
         {
             "name": "Dr. Senthilkumaran K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/skumaran.jpg"
+            "image": "images/faculty/skumaran.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?skumaran@iiitdm.ac.in"
         }
     ],
     "Signal, Image and Video processing": [
         {
             "name": "Dr. Appina Balasubramanyam",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/appina.jpg"
+            "image": "images/faculty/appina.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?appina@iiitdm.ac.in"
         }
     ],
-    "Photonics and fiber optic communication": [
+    "Photonics and Optical Systems": [
         {
             "name": "Dr. Srijith K",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/srijith.jpg"
+            "image": "images/faculty/srijith.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?srijith@iiitdm.ac.in"
         }
     ]
 }

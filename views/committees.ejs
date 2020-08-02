@@ -65,6 +65,7 @@
 
 <body>
     <%- include('partials/menu') %>
+    <%- include('partials/sticky-nav') %>
     <section
         class="container-fluid vh-100 px-0 bg-img bg-catskill-white d-flex flex-column justify-content-center justify-content-sm-start">
         <%- include('partials/alert.ejs') %>
@@ -166,8 +167,7 @@
                 <%- include('partials/organising-chairs', {oc: oc}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="technical" role="tabpanel" aria-labelledby="technical-tab">
-                Technical program Committee
-                <%- //include('partials/technical-committee', {trc: trc}) %>
+                <%- include('partials/technical-committee', {tpc: tpc}) %>
             </div>
             <div class="tab-pane fade text-secondary" id="phdSymposium" role="tabpanel"
                 aria-labelledby="phd-symposium-tab">

@@ -1,8 +1,15 @@
 <%- include('partials/header') %>
+<style>
+    .border-bottom-secondary {
+        border-bottom: 0.125em solid var(--secondary);
+        border-radius: 0;
+    }
+</style>
 </head>
 
 <body>
     <%- include('partials/menu') %>
+    <%- include('partials/sticky-nav') %>
     <section class="container-fluid px-0 bg-img bg-catskill-white d-flex flex-column">
         <%- include('partials/alert.ejs') %>
         <%- include('partials/nav.ejs') %>
@@ -86,8 +93,9 @@
                         be in English only. Full details of submission procedures and requirements for authors of
                         accepted papers are available at submission guidelines. Accepted papers will be
                         submitted for inclusion into IEEE Xplore.</p>
-                    <a href="" class="text-bahama-blue font-size-1 font-weight-medium">Submission page URL: Easy
-                        Chair</a>
+                    <a href="https://easychair.org/account/signin_timeout?l=98j8OTOqLHWdBxGRaPER0d#" target="_blank"
+                        class="text-bahama-blue ltr-bahama-blue font-size-1 font-weight-medium">Submission
+                        page URL: Easy Chair</a>
                 </div>
                 <div id="dates">
                     <h1 class="font-size-2 text-bahama-blue font-weight-bold">Important Dates

@@ -3,11 +3,12 @@
 
 <body class="bg-catskill-white">
     <%- include('partials/menu') %>
+    <%- include('partials/sticky-nav') %>
     <section class="container-fluid vh-100 px-0 bg-img">
         <a class="btn btn-outline-bahama-blue d-block d-sm-none text-uppercase font-weight-bold font-size-1 py-2 badge"
             href="#callForPapers">Call for papers</a>
-        <%- include('partials/alert.ejs') %>
-        <%- include('partials/nav.ejs') %>
+        <%- include('partials/alert') %>
+        <%- include('partials/nav') %>
 
         <div
             class="jumbotron container expand jumbotron-fluid bg-transparent vertical-center mb-0 px-5 px-sm-0 mt-3 mt-sm-0">
@@ -21,10 +22,17 @@
                     </div>
                     <h1 class="font-size-3 mt-5 w-xl-75">4<sup>th</sup> Conference on
                         Information and Communication Technology</h1>
-                    <h3 class="font-weight-regular mt-4 mt-sm-0">DEC 3 - 5, 2020</h3>
+                    <h3 class="font-weight-regular mt-4 mt-sm-0">
+                        <i data-feather="calendar"></i>
+                        DEC 3 - 5, 2020
+                    </h3>
+                    <h3 class="font-weight-regular mt-4 mt-sm-0">
+                        <i data-feather="map-pin"></i>
+                        IIITDM Kancheepuram, Chennai
+                    </h3>
                 </div>
                 <div
-                    class="col-md-2 col-lg-4 d-none d-md-flex flex-column justify-content-around align-content-stretch align-items-end">
+                    class="col-md-2 col-lg-4 d-none d-md-flex flex-column justify-content-around align-content-stretch align-items-end social">
                     <a><i data-feather="instagram"></i></a>
                     <a><i data-feather="twitter"></i></a>
                     <a><i data-feather="facebook"></i></a>
@@ -98,8 +106,8 @@
             </div>
         </div>
         <header class="container expand pt-5">
-            <h1 class="font-size-3 w-md-50 pt-4 pb-5 mt-md-5"><span class="underline-white-lg">Some tagline goes here
-                    conveying the core idea of this conference.</span></h1>
+            <h1 class="font-size-3 w-md-50 pt-4 pb-5 mt-md-5"><span class="underline-white-lg">Join us to explore the
+                    new possibilities of information and communication technology</span></h1>
             <h1 class="font-size-2 font-weight-bold my-4">IEEE CICT</h1>
         </header>
         <main class="container expand my-5 pt-4">
@@ -112,7 +120,7 @@
                 in Engineering forum.</p>
         </main>
         <footer class="container expand mb-5 py-5">
-            <a href="" class="lead text-white underline-white d-inline font-weight-medium">Checkout our 2019 stories</a>
+            <a href="" class="lead text-white ltr-white d-inline font-weight-medium">Checkout our 2019 stories</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
     </section>
@@ -128,7 +136,7 @@
                         <%- include('partials/update-card') %>
                     </div>
                     <footer class="container-fluid px-0 my-5 py-md-5 my-md-5">
-                        <a href="" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-medium">View
+                        <a href="" class="lead text-bahama-blue ltr-bahama-blue d-inline font-weight-medium">View
                             More</a>
                         <i data-feather="arrow-right" class="ml-2"></i>
                     </footer>
@@ -163,7 +171,7 @@
             <%- include('partials/topics', {tracks: tracks}) %>
         </main>
         <footer class="container expand my-5 pb-5">
-            <a href="/authors" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-medium">Know
+            <a href="/authors" class="lead text-bahama-blue ltr-bahama-blue d-inline font-weight-medium">Know
                 More</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
@@ -186,7 +194,7 @@
             </div>
         </main>
         <footer class="container expand mb-5 pb-5">
-            <a href="" class="lead text-bahama-blue underline-bahama-blue d-inline font-weight-bold">Know More</a>
+            <a href="" class="lead text-bahama-blue ltr-bahama-blue d-inline font-weight-medium">Know More</a>
             <i data-feather="arrow-right" class="ml-2"></i>
         </footer>
     </section>

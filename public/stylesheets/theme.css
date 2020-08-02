@@ -283,129 +283,6 @@ footer img.img-fluid {
     color: var(--dark-blue) !important;
 }
 
-
-/* animations */
-
-.close-menu,
-.open-menu {
-    -webkit-animation-duration: 600ms;
-    animation-duration: 600ms;
-    -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-}
-
-.open-menu {
-    -webkit-animation-name: open;
-    animation-name: open;
-}
-
-.close-menu {
-    -webkit-animation-name: close;
-    animation-name: close;
-}
-
-@media(min-width: 576px) {
-    @-webkit-keyframes close {
-        from {
-            opacity: 1;
-            transform: translateX(0%);
-        }
-
-        to {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-    }
-
-    @keyframes close {
-        from {
-            opacity: 1;
-            transform: translateX(0%);
-        }
-
-        to {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-    }
-
-    @-webkit-keyframes open {
-        from {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0%);
-        }
-    }
-
-    @keyframes open {
-        from {
-            opacity: 0;
-            transform: translateX(-100%);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0%);
-        }
-    }
-}
-
-@media(max-width: 576px) {
-    @-webkit-keyframes close {
-        from {
-            opacity: 1;
-            transform: translateX(calc(100vw - 100%));
-        }
-
-        to {
-            opacity: 0;
-            transform: translateX(100vw);
-        }
-    }
-
-    @keyframes close {
-        from {
-            opacity: 1;
-            transform: translateX(calc(100vw - 100%));
-        }
-
-        to {
-            opacity: 0;
-            transform: translateX(100vw);
-        }
-    }
-
-    @-webkit-keyframes open {
-        from {
-            opacity: 0;
-            transform: translateX(100vw);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(calc(100vw - 100%));
-        }
-    }
-
-    @keyframes open {
-        from {
-            opacity: 0;
-            transform: translateX(100vw);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(calc(100vw - 100%));
-        }
-    }
-}
-
 /* widths */
 .w-33 {
     width: 33%;
@@ -498,6 +375,30 @@ footer img.img-fluid {
     html,
     body {
         font-size: 14px !important;
+    }
+}
+
+@media(min-width: 1600px) {
+
+    html,
+    body {
+        font-size: 18px !important;
+    }
+}
+
+@media(min-width: 1920px) {
+
+    html,
+    body {
+        font-size: 19px !important;
+    }
+}
+
+@media(min-width: 2560px) {
+
+    html,
+    body {
+        font-size: 20px !important;
     }
 }
 
