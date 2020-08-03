@@ -1,5 +1,15 @@
 /* underlines */
 
+a.ltr-shift {
+    position: relative;
+    left: 0;
+    transition: left 400ms;
+}
+
+a.ltr-shift:hover {
+    left: 0.75em;
+}
+
 a.ltr-white {
     position: relative;
     padding-bottom: 0.25em;
@@ -62,8 +72,8 @@ a.ltr-bahama-blue:hover:before {
 
 .close-menu,
 .open-menu {
-    -webkit-animation-duration: 600ms;
-    animation-duration: 600ms;
+    -webkit-animation-duration: 400ms;
+    animation-duration: 400ms;
     -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     -webkit-animation-fill-mode: forwards;

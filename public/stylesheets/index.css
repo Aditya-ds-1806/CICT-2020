@@ -22,6 +22,10 @@
 
 
 @media (max-width: 576px) {
+    .minify-text {
+        font-size: 1.5rem;
+    }
+
     .vertical-center {
         position: absolute;
         top: 50%;
