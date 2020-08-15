@@ -1,6 +1,6 @@
 <a href="<%= person.website %>" target="_blank">
     <div class="card bg-transparent text-white border-0 rounded-0 h-100">
-        <% if(person.image !== '') { %>
+        <% if(typeof person.image !== 'undefined') { %>
         <img loading="lazy" src="<%= person.image %>" class="card-img-top rounded-0 border-0 m-0"
             alt="<%= person.name %>">
         <% } %>

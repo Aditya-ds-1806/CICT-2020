@@ -16,7 +16,7 @@
 </script>
 
 <% if (typeof route !== 'undefined' && route === 'index') { %>
-<script>
+<!-- <script>
     const child = document.querySelector('#child');
     const parent = document.querySelector('#parent');
     window.addEventListener('load', adjustMarginBottom);
@@ -27,7 +27,7 @@
         if (window.innerWidth > 992) child.style.marginBottom = `${-0.5 * parent.offsetHeight}px`;
         else child.style.marginBottom = 0;
     }
-</script>
+</script> -->
 <% } else if (typeof route !== 'undefined' && route === 'committees') { %>
 <script>
     document.querySelectorAll('section ul>li>a').forEach(pill => pill.addEventListener('click', function () { document.querySelector("#topic").textContent = this.textContent }));

@@ -13,7 +13,7 @@
     },
     {
         "name": "Dr. U B Desai",
-        "institute": "IIT Hyderabad",
+        "institute": "Former Director, IIT Hyderabad",
         "image": "images/external/desai.jpg",
         "website": "https://iith.ac.in/~ubdesai/"
     },
@@ -22,5 +22,23 @@
         "institute": "Retd. Professor, NIT Trichy",
         "image": "images/external/raghavan.jpg",
         "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/professors/raghavan/"
+    },
+    {
+        "name": "Dr. Vimal Bhatia",
+        "institute": "IIT Indore",
+        "image": "images/external/vimal.jpg",
+        "website": "http://www.iiti.ac.in/people/~vbhatia/"
+    },
+    {
+        "name": "Dr. Saravanan Sethuraman",
+        "institute": "Architect, Intel Corporation",
+        "image": "images/external/saravanan.jpg",
+        "website": "https://www.linkedin.com/in/saravanan-s-aaa280141/"
+    },
+    {
+        "name": "Dr. Devesh Dwivedi",
+        "institute": "Director IP Development, SSIR",
+        "image": "images/external/devesh.jpg",
+        "website": "https://www.linkedin.com/in/deveshdwivedi/?originalSubdomain=in"
     }
 ]

@@ -1,80 +1,182 @@
 [
     {
+        "name": "Dr. A. Santhanavijayan",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/cse/faculty/vijayan/"
+    },
+    {
         "name": "Dr. Akhilesh Tiwari",
         "institute": "IIIT Allahabad",
-        "image": "",
         "website": "https://profile.iiita.ac.in/atiwari/"
+    },
+    {
+        "name": "Dr. Aniruddha Kanhe",
+        "institute": "NIT Puducherry",
+        "website": "https://scholar.google.co.in/citations?hl=en&view_op=list_works&gmla=AJsN-F7ilsNhx7yURLWjQHf_oCaRKf-dwUCNkMQtVWoe1yMKur7j7i7_tNtQmCYQnuL1ibOPhqPDc-uGnE1X_LufQTU_31S9tQ&user=sYS0aTwAAAAJ"
+    },
+    {
+        "name": "Dr. Anoop Jacob Thomas",
+        "institute": "IIIT Trichy",
+        "website": "https://scholar.google.co.in/citations?user=8_tMTSQAAAAJ&hl=en"
     },
     {
         "name": "Dr. Aparajita Ojha",
         "institute": "IIITDM Jabalpur",
-        "image": "",
         "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=aojha@iiitdmj.ac.in"
     },
     {
         "name": "Dr. Eswaramoorthy K V",
         "institute": "IIITDM Kurnool",
-        "image": "",
         "website": "http://iiitk.ac.in/faculty/Dr.-Eswaramoorthy-K.-V"
     },
     {
         "name": "G C Nandi",
         "institute": "IIIT Allahabad",
-        "image": "",
         "website": "https://robita.iiita.ac.in/pgcn.php"
+    },
+    {
+        "name": "Prof. G Lakshmi Narayanan",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/associate_professor/gln"
+    },
+    {
+        "name": "Dr. G. Lakshmi Sutha",
+        "institute": "NIT Puducherry",
+        "website": "https://scholar.google.co.in/citations?hl=en&user=c9BsJHoAAAAJ&imq=Lakshmi+Sutha+Kumar&btnA=1&authorid=13988856604223378395&cstart=0&pagesize=20"
+    },
+    {
+        "name": "Dr. G. Thavasi Raja",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/asstprof/gtr"
+    },
+    {
+        "name": "Dr. Harigovindan V P",
+        "institute": "NIT Puducherry",
+        "website": "https://scholar.google.co.in/citations?user=_xMxmloAAAAJ&hl=en"
     },
     {
         "name": "Dr. K K Pattanaik",
         "institute": "IIITM Gwalior",
-        "image": "",
         "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.KKPattanaik"
+    },
+    {
+        "name": "Prof. M. Bhaskar",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/associate_professor/mb/"
+    },
+    {
+        "name": "Dr. M. Senthil Sivakumar",
+        "institute": "IIIT Trichy",
+        "website": "https://scholar.google.co.in/citations?user=r8s_A2kAAAAJ&hl=en"
+    },
+    {
+        "name": "Dr. Maheswaran P",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/maheswaran/"
+    },
+    {
+        "name": "Dr. Malaya Kumar Nath",
+        "institute": "NIT Puducherry",
+        "website": "https://scholar.google.co.in/citations?hl=en&user=N0hHzvsAAAAJ&view_op=list_works"
+    },
+    {
+        "name": "Dr. N. Renugadevi",
+        "institute": "IIIT Trichy",
+        "website": "https://scholar.google.com/citations?user=BvBw-K8AAAAJ&hl=en"
     },
     {
         "name": "Dr. Nikhil K S",
         "institute": "NITK Surathkal",
-        "image": "",
         "website": "https://ece.nitk.ac.in/professor/nikhil-k-s"
     },
     {
         "name": "Dr. O P Vyas",
         "institute": "IIIT Allahabad",
-        "image": "",
         "website": "https://cvo.iiita.ac.in/?pg=contactus"
+    },
+    {
+        "name": "Dr. P. Samundiswary",
+        "institute": "Pondicherry University",
+        "website": "http://www.pondiuni.edu.in/profile/dr-p-samundiswary"
+    },
+    {
+        "name": "Dr. Pankaj Arora",
+        "institute": "BITS Pilani",
+        "website": "https://scholar.google.com/citations?user=jugctNkAAAAJ&hl=en"
     },
     {
         "name": "Dr. Pramod Kumar Singh",
         "institute": "IIITM Gwalior",
-        "image": "",
         "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PKSingh"
     },
     {
         "name": "Dr. Pritee Khanna",
         "institute": "IIITDM Jabalpur",
-        "image": "",
         "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in"
+    },
+    {
+        "name": "Prof. Puneet Tandon",
+        "institute": "IIITDM Jabalpur",
+        "website": "http://faculty.iiitdmj.ac.in/faculty/ptandon"
+    },
+    {
+        "name": "Dr. R. Boopathi Rani",
+        "institute": "NIT Puducherry",
+        "website": "https://scholar.google.com/citations?user=3fs6ho0AAAAJ&hl=en"
+    },
+    {
+        "name": "Dr. Rajeswari Sridhar",
+        "institute": "NIT Trichy",
+        "website": "http://nitt.irins.org/profile/150062"
+    },
+    {
+        "name": "Dr. Ranjit Singh",
+        "institute": "IIIT Allahabad",
+        "website": "https://mba.iiita.ac.in/?pg=facultypage&uid=ranjitsingh"
+    },
+    {
+        "name": "Dr. S K V Jayakumar",
+        "institute": "Pondicherry University",
+        "website": "http://www.pondiuni.edu.in/profile/skv-jayakumar"
+    },
+    {
+        "name": "Dr. S. Jaya Nirmala",
+        "institute": "NIT Trichy",
+        "website": "https://www.nitt.edu/home/academics/departments/cse/faculty/jnirmala/"
+    },
+    {
+        "name": "Dr. S. Ravi",
+        "institute": "Pondicherry University",
+        "website": "http://www.pondiuni.edu.in/profile/dr-s-ravi"
     },
     {
         "name": "Dr. Sanjai Singh",
         "institute": "IIIT Allahabad",
-        "image": "",
-        "website": "https://ece.iiita.ac.in/faculty.php"
+        "website": "https://scholar.google.co.in/citations?user=wzUFuj0AAAAJ&hl=en"
     },
     {
-        "name": "Dr. Sudharshan",
+        "name": "Dr. Sudharsan P",
         "institute": "NIT Trichy",
-        "image": "",
-        "website": "http://nitt.irins.org/profile/150062"
+        "website": "https://sites.google.com/site/sudharsanpdy"
     },
     {
-        "name": "Dr. Vasundhara",
-        "institute": "NIT Warangal",
-        "image": "",
-        "website": "https://www.nitw.ac.in/faculty/id/17061/"
+        "name": "Dr. Suresh B",
+        "institute": "IIIT Trichy",
+        "website": "https://scholar.google.com/citations?user=h4FKhtsAAAAJ&hl=en"
+    },
+    {
+        "name": "Dr. T. Shanmuganantham",
+        "institute": "Pondicherry University",
+        "website": "http://www.pondiuni.edu.in/profile/dr-t-shanmuganantham"
     },
     {
         "name": "Dr Varun P. Gopi",
         "institute": "NIT Trichy",
-        "image": "",
         "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/asstprof/varun/"
+    },
+    {
+        "name": "Dr Vasundhara",
+        "institute": "NIT Warangal",
+        "website": "https://www.nitw.ac.in/faculty/id/17061/"
     }
 ]

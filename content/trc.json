@@ -1,9 +1,9 @@
 {
     "Artificial Intelligence and Machine Learning": [
         {
-            "name": "Dr. Munesh Singh",
+            "name": "Dr. Umarani J",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/munesh.jpg",
+            "image": "images/faculty/umarani.jpg",
             "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?munesh.singh@iiitdm.ac.in"
         }
     ],
@@ -17,9 +17,9 @@
     ],
     "CoVID-19 Technologies and Data Analysis": [
         {
-            "name": "Dr. Umarani Jayaraman",
+            "name": "Dr. Munesh Singh",
             "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/umarani.jpg",
+            "image": "images/faculty/munesh.jpg",
             "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?umarani@iiitdm.ac.in"
         }
     ],
