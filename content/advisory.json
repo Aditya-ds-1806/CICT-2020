@@ -1,9 +1,57 @@
 [
     {
-        "name": "Dr. Sounaka Mishra",
+        "name": "Prof. Aditya K Jagannatham",
+        "institute": "IIT Kanpur",
+        "image": "images/external/aditya-jagan.jpg",
+        "website": "https://iitk.ac.in/new/aditya-k-jagannatham"
+    },
+    {
+        "name": "Prof. Ashok Jhunjhunwala",
         "institute": "IIT Madras",
-        "image": "images/external/sounaka.jpg",
-        "website": "https://www.iitm.ac.in/info/fac/sounak"
+        "image": "images/external/ashok.jpg",
+        "website": "http://www.ee.iitm.ac.in/~ashok/"
+    },
+    {
+        "name": "Prof. Boby George",
+        "institute": "IIT Madras",
+        "image": "images/external/boby.jpg",
+        "website": "http://iitm.irins.org/profile/50780"
+    },
+    {
+        "name": "Prof. Chandramouli P",
+        "institute": "IIT Madras",
+        "image": "images/external/chandramouli.jpg",
+        "website": "https://mech.iitm.ac.in/meiitm/personnal/p-chandramouli/"
+    },
+    {
+        "name": "Prof. D. Devaraj",
+        "institute": "KARE, Krishnankoil",
+        "image": "images/external/devaraj.jpg",
+        "website": "https://kalasalingam.ac.in/site/contact-us-2/"
+    },
+    {
+        "name": "Prof. Devendra Jalihal",
+        "institute": "IIT Madras",
+        "image": "images/external/devendra.jpg",
+        "website": "http://iitm.irins.org/profile/580"
+    },
+    {
+        "name": "Dr. Devesh Dwivedi",
+        "institute": "Silicon IP Development, Global Foundries",
+        "image": "images/external/devesh.jpg",
+        "website": "https://www.linkedin.com/in/deveshdwivedi/?originalSubdomain=in"
+    },
+    {
+        "name": "Prof. Girish Kumar",
+        "institute": "IIT Bombay",
+        "image": "images/external/girish.jpg",
+        "website": "https://www.ee.iitb.ac.in/wiki/faculty/gkumar"
+    },
+    {
+        "name": "Prof. Krishna Moorthy Sivalingam",
+        "institute": "IIT Madras",
+        "image": "images/external/krishna.jpg",
+        "website": "http://www.cse.iitm.ac.in/~skrishnam/"
     },
     {
         "name": "Dr. Manoj Changat",
@@ -12,10 +60,22 @@
         "website": "https://www.keralauniversity.ac.in/dept/~mchangat"
     },
     {
-        "name": "Dr. U B Desai",
-        "institute": "Former Director, IIT Hyderabad",
-        "image": "images/external/desai.jpg",
-        "website": "https://iith.ac.in/~ubdesai/"
+        "name": "Prof. N. Kumarappan",
+        "institute": "Annamalai University",
+        "image": "images/external/kumarappan.jpg",
+        "website": "https://annamalaiuniversity.ac.in/faculty_view.php?id=01380&dc=E05"
+    },
+    {
+        "name": "Prof. R. Hariprakash",
+        "institute": "Bharath Institute of Higher Education and Research",
+        "image": "images/external/hariprakash.jpg",
+        "website": "https://www.bharathuniv.ac.in/colleges1/downloads/faculty_bio_data/eee_faculty/Dr.R.Hari%20Prakash%20Vitae.pdf"
+    },
+    {
+        "name": "Dr. S. Joseph Gladwin",
+        "institute": "SSN College of Engineering",
+        "image": "images/external/joseph.jpg",
+        "website": "https://www.ssn.edu.in/staff-members/s-joseph-gladwin/"
     },
     {
         "name": "Dr. S. Raghavan",
@@ -24,21 +84,63 @@
         "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/professors/raghavan/"
     },
     {
-        "name": "Dr. Vimal Bhatia",
+        "name": "Prof. S. Sadagopan",
+        "institute": "Chairman, BoG, IIITDM Kancheepuram",
+        "image": "images/external/sadagopan.jpg",
+        "website": "https://www.iiitb.ac.in/administration/s-sadagopan"
+    },
+    {
+        "name": "Prof. S Selvakumar",
+        "institute": "IIIT Una",
+        "image": "images/external/selvakumar.jpg",
+        "website": "https://www.nitt.edu/home/academics/departments/cse/faculty/ssk/"
+    },
+    {
+        "name": "Dr. Saravanan Sethuraman",
+        "institute": "Intel Corporation, Malaysia",
+        "image": "images/external/saravanan.jpg",
+        "website": "https://www.linkedin.com/in/saravanan-s-aaa280141/"
+    },
+    {
+        "name": "Prof. Satyandra K. Gupta",
+        "institute": "University of Southern California",
+        "image": "images/external/gupta.jpg",
+        "website": "http://ruk.usc.edu/bio/gupta/"
+    },
+    {
+        "name": "Dr. Sounaka Mishra",
+        "institute": "IIT Madras",
+        "image": "images/external/sounaka.jpg",
+        "website": "https://www.iitm.ac.in/info/fac/sounak"
+    },
+    {
+        "name": "Dr. Thangaprakash Sengodan",
+        "institute": "Diligentec Solutions",
+        "image": "images/external/sengodan.jpg",
+        "website": "https://www.linkedin.com/in/thangaprakash-sengodan-a55b0340/?originalSubdomain=in"
+    },
+    {
+        "name": "Prof. V Kamakoti",
+        "institute": "IIT Madras",
+        "image": "images/external/kamakoti.jpg",
+        "website": "https://www.cse.iitm.ac.in/profile.php?arg=MTg="
+    },
+    {
+        "name": "Prof. Vimal Bhatia",
         "institute": "IIT Indore",
         "image": "images/external/vimal.jpg",
         "website": "http://www.iiti.ac.in/people/~vbhatia/"
     },
     {
-        "name": "Dr. Saravanan Sethuraman",
-        "institute": "Architect, Intel Corporation",
-        "image": "images/external/saravanan.jpg",
-        "website": "https://www.linkedin.com/in/saravanan-s-aaa280141/"
+        "name": "Prof. Yu-Dong Zhang",
+        "institute": "University of Leicester, UK",
+        "image": "images/external/zhang.jpg",
+        "website": "https://www2.le.ac.uk/departments/informatics/people/yudong-zhang"
     },
     {
-        "name": "Dr. Devesh Dwivedi",
-        "institute": "Director IP Development, SSIR",
-        "image": "images/external/devesh.jpg",
-        "website": "https://www.linkedin.com/in/deveshdwivedi/?originalSubdomain=in"
+        "name": "Dr. U B Desai",
+        "institute": "Former Director, IIT Hyderabad",
+        "image": "images/external/desai.jpg",
+        "website": "https://iith.ac.in/~ubdesai/"
     }
 ]

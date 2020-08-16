@@ -1,18 +1,22 @@
 [
     {
-        "date": "Sep 15",
-        "text": "Paper submission"
+        "date": "Nov 15",
+        "text": "Paper Presentation and Video Submission"
     },
     {
-        "date": "Oct 31",
-        "text": "Notification of Acceptance"
+        "date": "Nov 10",
+        "text": "Camera Ready Submission"
     },
     {
         "date": "Nov 10",
         "text": "Early Bird Registration"
     },
     {
-        "date": "Nov 10",
-        "text": "Camera Ready Submission"
+        "date": "Oct 31",
+        "text": "Notification of Acceptance"
+    },
+    {
+        "date": "Sep 15",
+        "text": "Paper submission"
     }
 ]

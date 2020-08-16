@@ -35,16 +35,16 @@
     ],
     "Finance Committee": [
         {
-            "name": "Dr. Srijith K",
-            "institute": "IIITDM Kancheepuram",
-            "image": "images/faculty/srijith.jpg",
-            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?srijith@iiitdm.ac.in"
-        },
-        {
             "name": "Dr. Binsu Kailath",
             "institute": "IIITDM Kancheepuram",
             "image": "images/faculty/bkailath.jpg",
             "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?bkailath@iiitdm.ac.in"
+        },
+        {
+            "name": "Dr. Srijith K",
+            "institute": "IIITDM Kancheepuram",
+            "image": "images/faculty/srijith.jpg",
+            "website": "https://www.iiitdm.ac.in/People/displayProfileFaculty.php?srijith@iiitdm.ac.in"
         }
     ],
     "Programs and Events Committee": [
