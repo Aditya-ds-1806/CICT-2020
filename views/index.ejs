@@ -136,13 +136,13 @@
                     <div class="row row-cols-1 row-cols-md-2">
                         <%- include('partials/update-card') %>
                     </div>
-                    <footer class="container-fluid px-0 my-5 py-md-5 my-md-5">
+                    <footer class="container-fluid px-0 my-5 py-md-5 my-md-5 d-md-none">
                         <a href="" class="lead text-bahama-blue ltr-shift d-inline font-weight-medium">View More
                             <i data-feather="arrow-right" class="ml-2"></i>
                         </a>
                     </footer>
                 </div>
-                <div class="col-md-4 mt-5 text-center text-md-left mt-md-0 pb-5 mb-5 align-self-center">
+                <div class="col-md-4 mt-5 text-center text-md-left mt-md-0 pb-5 mb-5 pb-md-0 mb-md-0 align-self-center">
                     <i data-feather="globe"></i>
                     <h5 class="mt-3">Stay informed to our updates by subscribing to our notifications.</h5>
                     <form>
@@ -155,6 +155,11 @@
                     </form>
                 </div>
             </div>
+            <footer class="container-fluid px-0 my-5 pb-5 d-none d-md-block">
+                <a href="" class="lead text-bahama-blue ltr-shift d-inline font-weight-medium">View More
+                    <i data-feather="arrow-right" class="ml-2"></i>
+                </a>
+            </footer>
         </main>
     </section>
 
@@ -162,7 +167,8 @@
         <header class="container expand mt-5 pt-5">
             <h1 class="font-size-2 text-uppercase font-weight-bold d-block d-sm-inline pb-4 pb-sm-0">Call for papers
             </h1>
-            <a href="" class="btn btn-outline-bahama-blue ml-sm-3 font-weight-bold align-top">Download Brochure</a>
+            <a target="_blank" href="/brochures/cict2020_cfp.pdf"
+                class="btn btn-outline-bahama-blue ml-sm-3 font-weight-bold align-top">Download Brochure</a>
         </header>
         <main class="container expand mt-5">
             <p class="lead mt-3 font-weight-regular">Prospective authors are invited to submit full papers (maximum four
@@ -171,7 +177,7 @@
             <h1 class="font-size-2 text-uppercase my-5 font-weight-bold">Topics</h1>
             <%- include('partials/topics', {tracks: tracks}) %>
         </main>
-        <footer class="container expand my-5 pb-5">
+        <footer class="container expand mt-4 pb-5 mb-5">
             <a href="/authors" class="lead text-bahama-blue ltr-shift d-inline font-weight-medium">Know More
                 <i data-feather="arrow-right" class="ml-2"></i>
             </a>
@@ -182,13 +188,13 @@
         <header class="container expand mt-5 pt-5">
             <h1 class="font-size-3 w-md-50 mb-4"><span class="underline-bahama-blue-lg">We are committed to
                     bringing brilliant minds together.</span></h1>
-            <a href="" class="btn btn-outline-bahama-blue font-size-1 text-uppercase font-weight-bold mt-5 mb-4">Keynote
-                Speakers</a>
+            <h2 class="text-bahama-blue font-size-2 text-uppercase font-weight-bold my-5">Keynote
+                Speakers</h2>
         </header>
-        <main class="container expand my-5">
+        <main class="container expand mt-5">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
                 <% speakers.forEach(speaker => { %>
-                <div class="col mb-5">
+                <div class="col mb-5 pr-lg-5">
                     <%- include('partials/person-card.ejs', {person: speaker}) %>
                 </div>
                 <% }) %>

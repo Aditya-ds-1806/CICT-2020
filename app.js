@@ -1,10 +1,22 @@
 const express = require('express');
 const helmet = require('helmet');
-const app = express();
+const compression = require('compression');
+const serveStatic = require('serve-static');
+const path = require('path');
 const fs = require('fs');
+
+const app = express();
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.use(compression({ level: 9 }));
+app.use(serveStatic(path.join(__dirname, "public"), {
+    cacheControl: true,
+    immutable: true,
+    maxAge: 6 * 60 * 60 * 1000, // 6 hours
+    lastModified: false
+}));
+
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
