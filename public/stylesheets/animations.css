@@ -1,13 +1,13 @@
 /* underlines */
 
-a.ltr-shift {
+.ltr-shift>svg {
     position: relative;
     left: 0;
     transition: left 400ms;
 }
 
-a.ltr-shift:hover {
-    left: 0.75em;
+.ltr-shift:hover>svg {
+    left: 0.6em;
 }
 
 a.ltr-white {
