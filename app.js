@@ -1,9 +1,21 @@
 const express = require('express');
+const helmet = require('helmet');
 const app = express();
 const fs = require('fs');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.use(helmet({
+    contentSecurityPolicy: {
+        directives: {
+            defaultSrc: ["self", "'unsafe-inline'", "stackpath.bootstrapcdn.com", "localhost:3000", "cict2020.iiitdm.ac.in", "cict2020.herokuapp.com"],
+            imgSrc: ["self", "localhost:3000", "cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "via.placeholder.com"],
+            fontSrc: ["self", "fonts.googleapis.com", "fonts.gstatic.com"],
+            styleSrc: ["self", "'unsafe-inline'", "localhost:3000", "cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "stackpath.bootstrapcdn.com", "fonts.googleapis.com", "fonts.gstatic.com"],
+            scriptSrc: ["self", "'unsafe-inline'", "localhost:3000", "cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "code.jquery.com", "stackpath.bootstrapcdn.com", "unpkg.com", "cdn.jsdelivr.net"]
+        }
+    }
+}));
 
 app.get('/', (req, res) => {
     const speakers = JSON.parse(fs.readFileSync('content/speakers.json'));
