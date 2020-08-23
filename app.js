@@ -8,15 +8,14 @@ const fs = require('fs');
 const app = express();
 
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
-app.use(compression({ level: 9 }));
 app.use(serveStatic(path.join(__dirname, "public"), {
     cacheControl: true,
     immutable: true,
-    maxAge: 24 * 60 * 60, // 24 hours
+    maxAge: 86400000, // 24 hours
     lastModified: false
 }));
-
+app.use(express.static('public'));
+app.use(compression({ level: 9 }));
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
