@@ -21,7 +21,7 @@ body {
 }
 
 .bg-img {
-    background-image: url('/images/background.svg');
+    /* background-image: url('/images/background.svg'); */
     background-size: cover;
     background-position: center;
 }
