@@ -13,7 +13,7 @@ app.use(compression({ level: 9 }));
 app.use(serveStatic(path.join(__dirname, "public"), {
     cacheControl: true,
     immutable: true,
-    maxAge: 6 * 60 * 60 * 1000, // 6 hours
+    maxAge: 24 * 60 * 60, // 24 hours
     lastModified: false
 }));
 
