@@ -1,182 +1,1052 @@
 [
     {
-        "name": "Dr. A. Santhanavijayan",
-        "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/cse/faculty/vijayan/"
-    },
-    {
-        "name": "Dr. Akhilesh Tiwari",
+        "name": "Prof. Agarwal Anupam",
         "institute": "IIIT Allahabad",
-        "website": "https://profile.iiita.ac.in/atiwari/"
+        "website": "mailto:anupam@iiita.ac.in"
     },
     {
-        "name": "Dr. Aniruddha Kanhe",
-        "institute": "NIT Puducherry",
-        "website": "https://scholar.google.co.in/citations?hl=en&view_op=list_works&gmla=AJsN-F7ilsNhx7yURLWjQHf_oCaRKf-dwUCNkMQtVWoe1yMKur7j7i7_tNtQmCYQnuL1ibOPhqPDc-uGnE1X_LufQTU_31S9tQ&user=sYS0aTwAAAAJ"
+        "name": "Prof. Anupam Shukla",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:anupamshukla@iiitm.ac.in"
     },
     {
-        "name": "Dr. Anoop Jacob Thomas",
-        "institute": "IIIT Trichy",
-        "website": "https://scholar.google.co.in/citations?user=8_tMTSQAAAAJ&hl=en"
+        "name": "Prof. Anurag Srivastava",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:anurags@iiitm.ac.in"
     },
     {
         "name": "Prof. Aparajita Ojha",
         "institute": "IIITDM Jabalpur",
-        "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=aojha@iiitdmj.ac.in"
-    },
-    {
-        "name": "Dr. Eswaramoorthy K V",
-        "institute": "IIITDM Kurnool",
-        "website": "http://iiitk.ac.in/faculty/Dr.-Eswaramoorthy-K.-V"
-    },
-    {
-        "name": "Prof. G C Nandi",
-        "institute": "IIIT Allahabad",
-        "website": "https://robita.iiita.ac.in/pgcn.php"
+        "website": "mailto:aojha@iiitdmj.ac.in"
     },
     {
         "name": "Prof. G Lakshmi Narayanan",
         "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/associate_professor/gln"
+        "website": "mailto:laksh@nitt.edu"
     },
     {
-        "name": "Dr. G. Lakshmi Sutha",
-        "institute": "NIT Puducherry",
-        "website": "https://scholar.google.co.in/citations?hl=en&user=c9BsJHoAAAAJ&imq=Lakshmi+Sutha+Kumar&btnA=1&authorid=13988856604223378395&cstart=0&pagesize=20"
-    },
-    {
-        "name": "Dr. G. Thavasi Raja",
-        "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/asstprof/gtr"
-    },
-    {
-        "name": "Dr. Harigovindan V P",
-        "institute": "NIT Puducherry",
-        "website": "https://scholar.google.co.in/citations?user=_xMxmloAAAAJ&hl=en"
-    },
-    {
-        "name": "Dr. K K Pattanaik",
+        "name": "Prof. Gopal Krishan Sharma",
         "institute": "IIITM Gwalior",
-        "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.KKPattanaik"
+        "website": "mailto:gksharma@iiitm.ac.in"
+    },
+    {
+        "name": "Prof. Gyan Prakash",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:gyan@iiitm.ac.in"
+    },
+    {
+        "name": "Prof. Joydip Dhar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:jdhar@iiitm.ac.in"
+    },
+    {
+        "name": "Prof. Krishna Mishra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:kmisra@iiita.ac.in"
     },
     {
         "name": "Prof. M. Bhaskar",
         "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/associate_professor/mb/"
+        "website": "mailto:bhaskar@nitt.edu"
     },
     {
-        "name": "Dr. M. Senthil Sivakumar",
-        "institute": "IIIT Trichy",
-        "website": "https://scholar.google.co.in/citations?user=r8s_A2kAAAAJ&hl=en"
+        "name": "Prof. Mahua Bhattacharya",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:mb@iiitm.ac.in"
     },
     {
-        "name": "Dr. Maheswaran P",
-        "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/maheswaran/"
+        "name": "Prof. Manisha Pattanaik",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:manishapattanaik@iiitm.ac.in"
     },
     {
-        "name": "Dr. Malaya Kumar Nath",
-        "institute": "NIT Puducherry",
-        "website": "https://scholar.google.co.in/citations?hl=en&user=N0hHzvsAAAAJ&view_op=list_works"
+        "name": "Prof. Manoj Patwardhan",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:manojp@iiitm.ac.in"
     },
     {
-        "name": "Dr. N. Renugadevi",
-        "institute": "IIIT Trichy",
-        "website": "https://scholar.google.com/citations?user=BvBw-K8AAAAJ&hl=en"
-    },
-    {
-        "name": "Dr. Nikhil K S",
-        "institute": "NITK Surathkal",
-        "website": "https://ece.nitk.ac.in/professor/nikhil-k-s"
-    },
-    {
-        "name": "Prof. O P Vyas",
+        "name": "Prof. Nandi Gora Chand",
         "institute": "IIIT Allahabad",
-        "website": "https://cvo.iiita.ac.in/?pg=contactus"
+        "website": "mailto:gcnandi@iiita.ac.in"
     },
     {
-        "name": "Dr. P. Samundiswary",
-        "institute": "Pondicherry University",
-        "website": "http://www.pondiuni.edu.in/profile/dr-p-samundiswary"
+        "name": "Prof. Naval Bajpai",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:nbajpai@iiitm.ac.in"
     },
     {
-        "name": "Dr. Pankaj Arora",
-        "institute": "BITS Pilani",
-        "website": "https://scholar.google.com/citations?user=jugctNkAAAAJ&hl=en"
+        "name": "Prof. Pankaj Srivastava",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:pankajs@iiitm.ac.in"
     },
     {
         "name": "Prof. Pramod Kumar Singh",
         "institute": "IIITM Gwalior",
-        "website": "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PKSingh"
-    },
-    {
-        "name": "Dr. Pritee Khanna",
-        "institute": "IIITDM Jabalpur",
-        "website": "http://cse.iiitdmj.ac.in/faculty_page.php?id=pkhanna@iiitdmj.ac.in"
+        "website": "mailto:pksingh@iiitm.ac.in"
     },
     {
         "name": "Prof. Puneet Tandon",
         "institute": "IIITDM Jabalpur",
-        "website": "http://faculty.iiitdmj.ac.in/faculty/ptandon"
+        "website": "mailto:ptandon@iiitdmj.ac.in"
+    },
+    {
+        "name": "Prof. Puneet Tandon",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:ptandon@iiitdmj.ac.in"
+    },
+    {
+        "name": "Prof. Rajendra Sahu",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:rsahu@iiitm.ac.in"
+    },
+    {
+        "name": "Prof. Shashikala Tapaswi",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:stapaswi@iiitm.ac.in"
+    },
+    {
+        "name": "Prof. Tapobrata Lahiri",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:tlahiri@iiita.ac.in"
+    },
+    {
+        "name": "Prof. Tiwary Uma Shanker",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:ust@iiita.ac.in"
+    },
+    {
+        "name": "Prof. Vijay Kumar Gupta",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:vkgupta@iiitdmj.ac.in"
+    },
+    {
+        "name": "Prof. Vyas Omprakash",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:opvyas@iiita.ac.in"
+    },
+    {
+        "name": "Dr. A Santhanavijayan",
+        "institute": "NIT Trichy",
+        "website": "mailto:vijayana@nitt.edu"
+    },
+    {
+        "name": "Dr. Abdullah Bin Abu Baker",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:abdullah@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Achintya Kumar Sarkar",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Agarwal Sonali",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sonali@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Ajay Kumar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:ajayfma@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Akhtar Khan",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:akhtar@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Akilesh Tiwari",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:atiwari@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Amar Nath Yadav",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:amarnath@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Amaresh Chandra Mishra",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:amresh@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Amaresh Kumar Sahoo",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:asahoo@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Amarnath M.",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:amarnath@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Amit Prabhakar",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:amit@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Amit Vishwakarma",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:amitv@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Amrita Bhattacharjee",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:amrita@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Anand Anshu S",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:anshu@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Anand Kumar Tiwari",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:anand@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Anil Kumar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:anilk@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Aniruddha Kanhe",
+        "institute": "NIT Puducherry",
+        "website": "mailto:aniruddhakanhe@nitpy.ac.in"
+    },
+    {
+        "name": "Dr. Anish Chand Turlapaty",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Anoop J Thomas",
+        "institute": "IIIT Trichy",
+        "website": "mailto:anoopjt@iiitt.ac.in"
+    },
+    {
+        "name": "Dr. Anuraj Singh",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:anuraj@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Arun Kumar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:arunkumar@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Ashutosh Kr. Singh",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:ashutosh_singh@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Asish K. Kundu",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:asish.kundu@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Atul Gupta",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:atul@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Atul Kumar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:atul.kumar@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Ayan Seal",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:ayan@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. B S Sanjeev",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sanjeev@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Balaji Raman",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Balasubramanian (Subu) Kandaswamy",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Bhupendra Gupta",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:bhupen@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Binod Prasad",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:binod@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Biswajeet Mukherjee",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:b.mukherjee@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Chaurasiya Vijay Kumar",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:vijayk@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Das Sudipta",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sudipta@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Debanjan Sadhya",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:debanjan@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Deepmala",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:deepmala@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Dip Prakash Samajdar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:dip.samajdar@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. E. Paul Braineard",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Eswaramoorthy K V",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:eswaramoorthykv@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. G. Devasena",
+        "institute": "IIIT Trichy",
+        "website": ""
+    },
+    {
+        "name": "Dr. G. Lakshmi Sutha",
+        "institute": "NIT Puducherry",
+        "website": "mailto:lakshmi@nitpy.ac.in"
+    },
+    {
+        "name": "Dr. G. Seetharaman",
+        "institute": "IIIT Trichy",
+        "website": ""
+    },
+    {
+        "name": "Dr. G. Thavasi Raja",
+        "institute": "NIT Trichy",
+        "website": "mailto:thavasi@nitt.edu"
+    },
+    {
+        "name": "Dr. Gaurav Agrawal",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:gaurav@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Gaurav Kaushal",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:kaushalg@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Ghosal Bibhas",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:bibhas.ghoshal@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Goel Utkarsh",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:utkarsh@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Goutam Dutta",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:gd@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. H. Chelladurai",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:chella@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Harigovindan V P",
+        "institute": "NIT Puducherry",
+        "website": "mailto:hari@nitpy.ac.in"
+    },
+    {
+        "name": "Dr. Harpreet Singh",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:hps.dme@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Himangshu Sarma",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Himansu Sekhar Nanda",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:himansu@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Hrishikesh Venkataraman",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Irshad Ahmad Ansari",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:irshad@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. J. Al Muzzamil Fareen",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:jamfareen@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Javed Mahammed",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:javed@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Jeevaraj S",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:jeevaraj@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Kala Rahul",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:rkala@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Kandimalla Divyabramham",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Kavindra Kandpal",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:kavindra@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Kiran Kumar Pattanaik",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:kkpatnaik@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Kumar Manish",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:manish@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Kumar Shailendra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:shailendrak@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Lokendra Balyan",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:balyan@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. M. Senthil Sivakumar",
+        "institute": "IIIT Trichy",
+        "website": "mailto:msenthilsivakumar@iiitt.ac.in"
+    },
+    {
+        "name": "Dr. Maheswaran P",
+        "institute": "NIT Trichy",
+        "website": "mailto:mahes@nitt.edu"
+    },
+    {
+        "name": "Dr. Mainak Thakur",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Maity Soumaydev",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:soumyadev@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Malaya Kumar Nath",
+        "institute": "NIT Puducherry",
+        "website": "mailto:malaya.nath@nitpy.ac.in"
+    },
+    {
+        "name": "Dr. Mamta Anand",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:manand@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Mani Prakash",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:smp@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Manish Goswami",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:manishgoswami@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Manish Kumar Bajpai",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:mkbajpai@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Manoj Dash",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:manojdash@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Manoj Kumar Panda",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:mkpanda@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Manoj Singh Parihar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:mparihar@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Mishra Saurabh",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:saurabhmishra@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Misra Madhvendra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:madhvendra@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Mohamed Asan Basiri M",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:asan@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Mohd. Zahid Ansari",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:zahid@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Mrinmoy Ghorai",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Mukesh Kumar Roy",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:mkroy@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Murali D",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:dmurali@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. N. Renugadevi",
+        "institute": "IIIT Trichy",
+        "website": "mailto:renugadevin@iiitt.ac.in"
+    },
+    {
+        "name": "Dr. Neeraj K. Jaiswal",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:neeraj@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Neetesh Kumar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:nkiiitmg@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Nidhi Mishra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:nidhimishra@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Nihar Kumar Mahato",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:nihar@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Nihar Ranjan Jena",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:nrjena@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Nikhil K. S.",
+        "institute": "NITK Surathkal",
+        "website": "mailto:nikhilks@nitk.edu.in"
+    },
+    {
+        "name": "Dr. Odelu Vanga",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. P Santhi Bala",
+        "institute": "Pondicherry University",
+        "website": "mailto:shanthibala.csc@pondiuni.edu.in"
+    },
+    {
+        "name": "Dr. P. Samundiswary",
+        "institute": "Pondicherry University",
+        "website": "mailto:sam.dee@pondiuni.edu.in"
+    },
+    {
+        "name": "Dr. Pankaj Arora",
+        "institute": "BITS Pilani",
+        "website": "mailto:pankaj.arora@pilani.bits-pilani.ac.in"
+    },
+    {
+        "name": "Dr. Pankaj Sharma",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:pankaj.sharma@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Pant Triloki",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:tpant@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Pavan Chakraborty",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:pavan@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Pinku Ranjan",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:pinkuranjan@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Ponappa.K",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:kponappa@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Pooja Mishra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:pooja@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Prabin Kumar Padhy",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:prabin16@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Prabir Mukhopadhyay",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:prabir@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Prasanna Kumar Mishra",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:prasanna@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Prasenjit Chanak",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:pchanak@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Prashant K. Jain",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:pkjain@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Pritee Khanna",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:pkhanna@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Pritish Kumar Varadwaj",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:pritish@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Priyanka Dwivedi",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Promod Kumar",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:pkumar@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Pullarao Muvvala",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:muvvala@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Pushpa Raikwal",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:praikwal@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. R Nakkeeran",
+        "institute": "Pondicherry University",
+        "website": ""
     },
     {
         "name": "Dr. R. Boopathi Rani",
         "institute": "NIT Puducherry",
-        "website": "https://scholar.google.com/citations?user=3fs6ho0AAAAJ&hl=en"
+        "website": "mailto:rbrani@nitpy.ac.in"
+    },
+    {
+        "name": "Dr. R. Dhanalakshmi",
+        "institute": "IIIT Trichy",
+        "website": ""
+    },
+    {
+        "name": "Dr. R. Krishnamurthy",
+        "institute": "IIIT Trichy",
+        "website": ""
+    },
+    {
+        "name": "Dr. Rai Shashi Kant",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:shashikant@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Raja Vara Prasad",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Rajendra Prasath",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Rajesh Rajagopal",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:rajesh@iiitm.ac.in"
     },
     {
         "name": "Dr. Rajeswari Sridhar",
         "institute": "NIT Trichy",
-        "website": "http://nitt.irins.org/profile/150062"
+        "website": "mailto:srajeswari@nitt.edu"
     },
     {
-        "name": "Dr. Ranjit Singh",
+        "name": "Dr. Raju Sagi",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:rajusagi60@gmail.com"
+    },
+    {
+        "name": "Dr. Ratan K Saha",
         "institute": "IIIT Allahabad",
-        "website": "https://mba.iiita.ac.in/?pg=facultypage&uid=ranjitsingh"
+        "website": "mailto:ratank.saha@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Ravi Panwar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:rpanwar@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Ravinder Katta",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:ravinder@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Rekha Verma",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:r.verma@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Renjith P",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:renjith@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Ritu Tiwari",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:ritutiwari@iiitm.ac.in"
     },
     {
         "name": "Dr. S K V Jayakumar",
         "institute": "Pondicherry University",
-        "website": "http://www.pondiuni.edu.in/profile/skv-jayakumar"
+        "website": "mailto:skvjay.csc@pondiuni.edu.in"
     },
     {
         "name": "Dr. S. Jaya Nirmala",
         "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/cse/faculty/jnirmala/"
+        "website": "mailto:sjaya@nitt.edu"
     },
     {
         "name": "Dr. S. Ravi",
         "institute": "Pondicherry University",
-        "website": "http://www.pondiuni.edu.in/profile/dr-s-ravi"
+        "website": "mailto:sravicite@gmail.com"
+    },
+    {
+        "name": "Dr. Sachin Kumar Jain",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:skjain@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Sangeeta Pandit",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:s.pandit@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Sangeeta Singh",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sangeeta@iiita.ac.in"
     },
     {
         "name": "Dr. Sanjai Singh",
         "institute": "IIIT Allahabad",
-        "website": "https://scholar.google.co.in/citations?user=wzUFuj0AAAAJ&hl=en"
+        "website": "mailto:ssingh@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Santosh Singh Rathore",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:santoshs@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Saumya Bhadauria",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:saumya@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Saurabh Pratap",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:s.pratap@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Savitri Joshi",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:savitri.joshi@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Seema Kushwaha",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:seemak@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Shiv Ram Dubey",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Shivdayal Patel",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:shivdayal@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Singh Jagpreet",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:jagpreets@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Singh Krishna Pratap",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:kpsingh@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Singh Pragya",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:pragyabharadwaj@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Singh Ranjit",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:ranjitsingh@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Sintu Kumar Samanta",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:samantasintu@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Sitangshu Bhattacharya",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sitangshu@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Situ Rani Patre",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:srpatre@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Sivaprasad Kotamraju",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Somesh Kumar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:somesh@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Sraban Kumar Mohanty",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:sraban@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Srijit Bhattacharjee",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:srijitb@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Srilakshmi R",
+        "institute": "IIITDM Kurnool",
+        "website": "mailto:srilakshmi@iiitk.ac.in"
+    },
+    {
+        "name": "Dr. Subir Lamba",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:subirs@iiitdmj.ac.in"
     },
     {
         "name": "Dr. Sudharsan P",
         "institute": "NIT Trichy",
-        "website": "https://sites.google.com/site/sudharsanpdy"
+        "website": "mailto:sudharsan@nitt.edu"
     },
     {
-        "name": "Dr. Suresh B",
+        "name": "Dr. Sujoy Mukherjee",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:sujoy@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Sumit Kumar Upadhyay",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sumitupadhyay@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Suneel Yadav",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:suneel@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Sunil Agrawal",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:sa@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Sunil Kumar",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:snk@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Sunny Sharma",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:sunnys@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Suresh Balanethiram",
         "institute": "IIIT Trichy",
-        "website": "https://scholar.google.com/citations?user=h4FKhtsAAAAJ&hl=en"
+        "website": "mailto:sureshb@iiitt.ac.in"
     },
     {
         "name": "Dr. T. Shanmuganantham",
         "institute": "Pondicherry University",
-        "website": "http://www.pondiuni.edu.in/profile/dr-t-shanmuganantham"
+        "website": "mailto:shanmuga.dee@pondiuni.edu.in"
     },
     {
-        "name": "Dr Varun P. Gopi",
+        "name": "Dr. Tanuja Sheorey",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:tanush@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Tapas Pandit",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. Tiwari Vijayshri",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:vijayshri@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Tiwari Vineet",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:vineet@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Tripti Singh",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:ts@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Trivesh Kumar",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:trivesh@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Vaish Abhishek",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:abhishek@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Vaish Anurika",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:anurika@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Varma Shirshu",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:shirshu@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Varun Bajaj",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:varunb@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Varun P. Gopi",
         "institute": "NIT Trichy",
-        "website": "https://www.nitt.edu/home/academics/departments/ece/faculty/asstprof/varun/"
+        "website": "mailto:varun@nitt.edu"
     },
     {
-        "name": "Dr Vasundhara",
+        "name": "Dr. Vasundhara",
         "institute": "NIT Warangal",
-        "website": "https://www.nitw.ac.in/faculty/id/17061/"
+        "website": "mailto:vasundhara@nitw.ac.in"
+    },
+    {
+        "name": "Dr. Venkatesan S",
+        "institute": "IIIT Allahabad",
+        "website": "mailto:venkat@iiita.ac.in"
+    },
+    {
+        "name": "Dr. Vinal Patel",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:vp@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Vinay Singh",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:vsingh@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Vinod Kumar Jain",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:vkjain@iiitdmj.ac.in"
+    },
+    {
+        "name": "Dr. Vishal Vyas",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:vishal@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Viswanath Pulabaigari",
+        "institute": "IIIT Sri City",
+        "website": ""
+    },
+    {
+        "name": "Dr. W Wilfred Godfrey",
+        "institute": "IIITM Gwalior",
+        "website": "mailto:godfrey@iiitm.ac.in"
+    },
+    {
+        "name": "Dr. Yashpal Singh Katharria",
+        "institute": "IIITDM Jabalpur",
+        "website": "mailto:yashpalk@iiitdmj.ac.in"
     }
 ]
