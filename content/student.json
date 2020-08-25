@@ -16,5 +16,53 @@
         "institute": "Content Writer",
         "image": "images/students/narasimhan.jpg",
         "website": "https://www.linkedin.com/in/avpl-narasimhan-3123b216b/"
+    },
+    {
+        "name": "Shivaranjani S",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Gadamsetty Muralidhar",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Tharani D",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Sivagami K",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Swathy B H",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Arthi S",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Naveen S",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
+    },
+    {
+        "name": "Sivaraj K R",
+        "institute": "Volunteer",
+        "image": "",
+        "website": ""
     }
 ]
