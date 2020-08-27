@@ -26,43 +26,43 @@
     {
         "name": "Gadamsetty Muralidhar",
         "institute": "Volunteer",
-        "image": "",
+        "image": "images/students/muralidhar.jpg",
         "website": ""
     },
     {
         "name": "Tharani D",
         "institute": "Volunteer",
-        "image": "",
-        "website": ""
+        "image": "images/students/tharani.jpg",
+        "website": "images/students/tharani.jpg"
     },
     {
         "name": "Sivagami K",
         "institute": "Volunteer",
-        "image": "",
+        "image": "images/students/sivagami.jpg",
         "website": ""
     },
     {
         "name": "Swathy B H",
         "institute": "Volunteer",
-        "image": "",
+        "image": "images/students/swathy.jpg",
         "website": ""
     },
     {
         "name": "Arthi S",
         "institute": "Volunteer",
-        "image": "",
+        "image": "images/students/arthi.jpg",
         "website": ""
     },
     {
         "name": "Naveen S",
         "institute": "Volunteer",
-        "image": "",
+        "image": "images/students/naveen.jpg",
         "website": ""
     },
     {
         "name": "Sivaraj K R",
         "institute": "Volunteer",
-        "image": "",
-        "website": ""
+        "image": "images/students/sivaraj.jpg",
+        "website": "images/students/sivaraj.jpg"
     }
 ]
