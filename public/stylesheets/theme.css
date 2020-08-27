@@ -103,11 +103,11 @@ a:hover {
 
 /* text colors */
 .text-catskill-white {
-    color: var(--light-blue);
+    color: var(--light-blue)!important;
 }
 
 .text-bahama-blue {
-    color: var(--dark-blue);
+    color: var(--dark-blue)!important;
 }
 
 
