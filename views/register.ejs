@@ -1,0 +1,150 @@
+<%- include('partials/header') %>
+<style>
+    .border-bottom-secondary {
+        border-bottom: 0.125em solid var(--secondary);
+        border-radius: 0;
+    }
+
+    th,
+    td {
+        vertical-align: middle !important;
+    }
+</style>
+</head>
+
+<body class="text-justify">
+    <%- include('partials/menu') %>
+    <%- include('partials/sticky-nav') %>
+    <section class="container-fluid px-0 bg-img bg-catskill-white d-flex flex-column">
+        <%- include('partials/alert.ejs') %>
+        <%- include('partials/nav.ejs') %>
+        <header class="jumbotron container expand jumbotron-fluid bg-transparent expand mb-0 px-4 px-sm-0">
+            <div class="row mx-0 mb-5">
+                <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-4 mt-3 px-0">
+                    <img loading="lazy" src="images/IEEE_logo.svg"
+                        class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-50"
+                        alt="IEEE Logo"><img loading="lazy" src="images/logo-1.png"
+                        class="img-fluid pl-4 w-33 d-inline-block" alt="CICT Logo">
+                </div>
+            </div>
+            <hr class="border-0 my-5"
+                style="height: 3px; background-image: linear-gradient(to right, rgba(0, 104, 148, 0.75), rgba(0, 104, 148, 0));">
+            <h1 class="font-size-4">Registrations</h1>
+        </header>
+    </section>
+
+    <section class="container-fluid bg-white py-5">
+        <section class="container expand py-5 my-5">
+            <div class="table-responsive">
+                <table class="table table-primary table-striped table-bordered text-center text-bahama-blue"
+                    style="vertical-align: middle;">
+                    <thead>
+                        <tr>
+                            <th scope="col" colspan="13">Registration Fee Details</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" colspan="13">Indian Delegates (INR)</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">Category</th>
+                            <th colspan="6">Early Bird Registration (till 10th November 2020)</td>
+                            <th colspan="6">Early Bird Registration (after 10th November 2020)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" colspan="2">Industry</th>
+                            <th scope="row" colspan="2">Academia</th>
+                            <th scope="row" colspan="2">Students</th>
+                            <th scope="row" colspan="2">Industry</th>
+                            <th scope="row" colspan="2">Academia</th>
+                            <th scope="row" colspan="2">Students</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                            <th scope="row">IEEE</th>
+                            <th scope="row">Non-IEEE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Presenter</th>
+                            <td>7670</td>
+                            <td>8850</td>
+                            <td>6490</td>
+                            <td>7670</td>
+                            <td>3540</td>
+                            <td>4720</td>
+                            <td>8850</td>
+                            <td>10030</td>
+                            <td>7670</td>
+                            <td>8850</td>
+                            <td>4720</td>
+                            <td>5900</td>
+                        </tr>
+                        <tr>
+                            <th>Listener</th>
+                            <td>2950</td>
+                            <td>3540</td>
+                            <td>2360</td>
+                            <td>2950</td>
+                            <td>1180</td>
+                            <td>1770</td>
+                            <td>3540</td>
+                            <td>4130</td>
+                            <td>2950</td>
+                            <td>3540</td>
+                            <td>1770</td>
+                            <td>2360</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" colspan="13">Foreign Delegates (USD)</th>
+                        </tr>
+                        <tr>
+                            <th>Presenter</th>
+                            <td>295</td>
+                            <td>354</td>
+                            <td>236</td>
+                            <td>295</td>
+                            <td>177</td>
+                            <td>236</td>
+                            <td>354</td>
+                            <td>413</td>
+                            <td>295</td>
+                            <td>354</td>
+                            <td>236</td>
+                            <td>295</td>
+                        </tr>
+                        <tr>
+                            <th>Listener</th>
+                            <td>94.4</td>
+                            <td>118</td>
+                            <td>59</td>
+                            <td>94.4</td>
+                            <td>35.4</td>
+                            <td>47.2</td>
+                            <td>118</td>
+                            <td>141.6</td>
+                            <td>82.6</td>
+                            <td>118</td>
+                            <td>59</td>
+                            <td>70.8</td>
+                        </tr>
+                        <tr>
+                            <td colspan="13" class="text-muted text-left">*The fee particulars mentioned are inclusive
+                                of
+                                GST.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+    <%- include('partials/footer') %>

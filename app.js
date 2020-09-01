@@ -163,6 +163,10 @@ app.get('/authors', (req, res) => {
     res.render('cfp', { route: "cfp", tracks: tracks });
 });
 
+app.get('/register', (req, res) => {
+    res.render("register", { route: "register" });
+});
+
 app.get('*', (req, res) => {
     res.sendStatus(404);
 });
