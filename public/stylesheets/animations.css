@@ -90,6 +90,29 @@ a.ltr-bahama-blue:hover:before {
     animation-name: close;
 }
 
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.12);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
 @media(min-width: 576px) {
     @-webkit-keyframes close {
         from {
