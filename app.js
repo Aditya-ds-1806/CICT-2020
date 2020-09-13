@@ -73,7 +73,8 @@ app.get('/committees', (req, res) => {
 
 app.get('/authors', (req, res) => {
     const tracks = JSON.parse(fs.readFileSync('content/tracks.json'));
-    res.render('cfp', { route: "cfp", tracks: tracks });
+    const updates = JSON.parse(fs.readFileSync('content/updates.json'));
+    res.render('cfp', { route: "cfp", tracks: tracks, updates: updates });
 });
 
 app.get('/register', (req, res) => {
