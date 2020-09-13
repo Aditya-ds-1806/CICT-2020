@@ -2,7 +2,11 @@
 <div class="col py-2">
     <div class="card rounded-0 border-bahama-blue bg-catskill-white h-100 m-0">
         <div class="card-body">
-            <h5 class="card-title font-size-1 font-weight-bold"><%= update.date %></h5>
+            <h5 class="card-title font-size-1 font-weight-bold">
+                <% if(typeof update.prevDate !== 'undefined') { %>
+                <del class="text-muted"><%= update.prevDate %></del>
+                <% } %>
+                <%= update.date %></h5>
             <h6 class="m-0 font-size-1 font-weight-medium"><%= update.text %></h6>
         </div>
     </div>
