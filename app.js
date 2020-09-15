@@ -2,12 +2,14 @@ const express = require('express');
 const helmet = require('helmet');
 const compression = require('compression');
 const serveStatic = require('serve-static');
+const favicon = require('serve-favicon');
 const path = require('path');
 const fs = require('fs');
 
 const app = express();
 
 app.set('view engine', 'ejs');
+app.use(favicon(path.join('public', 'images', 'favicon.ico')));
 app.use(serveStatic(path.join(__dirname, "public"), {
     cacheControl: true,
     immutable: true,
