@@ -19,11 +19,11 @@ app.use(compression({ level: 9 }));
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
-            defaultSrc: ["self", "'unsafe-inline'", "stackpath.bootstrapcdn.com", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com"],
-            imgSrc: ["self", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "via.placeholder.com"],
-            fontSrc: ["self", "fonts.googleapis.com", "fonts.gstatic.com"],
-            styleSrc: ["self", "'unsafe-inline'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "stackpath.bootstrapcdn.com", "fonts.googleapis.com", "fonts.gstatic.com"],
-            scriptSrc: ["self", "'unsafe-inline'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "code.jquery.com", "stackpath.bootstrapcdn.com", "unpkg.com", "cdn.jsdelivr.net"]
+            defaultSrc: ["'self'", "'unsafe-inline'", "stackpath.bootstrapcdn.com", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com"],
+            imgSrc: ["'self'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "via.placeholder.com"],
+            fontSrc: ["'self'", "fonts.googleapis.com", "fonts.gstatic.com"],
+            styleSrc: ["'self'", "'unsafe-inline'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "stackpath.bootstrapcdn.com", "fonts.googleapis.com", "fonts.gstatic.com"],
+            scriptSrc: ["'self'", "'unsafe-inline'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "code.jquery.com", "stackpath.bootstrapcdn.com", "unpkg.com", "cdn.jsdelivr.net"]
         }
     }
 }));
