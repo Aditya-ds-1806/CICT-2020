@@ -12,8 +12,7 @@ window.addEventListener('load', function () {
     programs.slideUp();
 
     document.querySelectorAll("svg.feather.feather-menu").forEach(btn => {
-        btn.parentElement.addEventListener('click', (e) => {
-            e.preventDefault();
+        btn.parentElement.addEventListener('click', e => {
             $('aside').removeClass('close-menu');
             $('aside').addClass('open-menu');
         });
