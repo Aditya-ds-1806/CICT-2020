@@ -1,4 +1,34 @@
 <%- include('partials/header') %>
+<style>
+    .badge {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform-origin: right bottom;
+        transform: rotate(-90deg) translateX(50%);
+        background-color: var(--dark-blue);
+        color: #fff;
+        z-index: 1;
+    }
+
+
+    @media (min-width: 992px) {
+        .move-up {
+            transform: translateY(-50%);
+        }
+
+        .pb-30 {
+            padding-bottom: 30% !important;
+        }
+    }
+
+
+    @media (max-width: 576px) {
+        .minify-text {
+            font-size: 1.5rem;
+        }
+    }
+</style>
 </head>
 
 <body class="bg-catskill-white">
@@ -11,16 +41,16 @@
         <%- include('partials/nav') %>
 
         <div
-            class="jumbotron container expand jumbotron-fluid bg-transparent vertical-center mb-0 px-4 px-sm-0 mt-3 mt-sm-0">
-            <div class="row mx-0">
+            class="jumbotron container expand jumbotron-fluid bg-transparent center mb-0 px-4 px-sm-0 mt-sm-5 mt-xl-n3">
+            <div class="row mx-0 mt-5 pt-xl-5">
                 <div class="col-md-10 col-lg-8 pb-5 px-0">
                     <div class="col-12 col-sm-7 col-md-6 col-xl-5 mt-3 px-0">
                         <img loading="lazy" src="images/IEEE_logo.svg"
-                            class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-50"
+                            class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-33 w-sm-50"
                             alt="IEEE Logo"><img loading="lazy" src="images/logo.png"
-                            class="img-fluid pl-4 w-33 d-inline-block" alt="CICT Logo">
+                            class="img-fluid pl-4 w-25 w-sm-33 d-inline-block" alt="CICT Logo">
                     </div>
-                    <h1 class="font-size-3 mt-5 w-xl-75">4<sup>th</sup> Conference on
+                    <h1 class="font-size-3 mt-3 mt-sm-5 w-xl-75">4<sup>th</sup> Conference on
                         Information and Communication Technology</h1>
                     <h4 class="font-weight-regular minify-text mt-4 mt-sm-0">
                         <i data-feather="calendar" width="1em" height="1em"></i>
@@ -28,7 +58,7 @@
                     </h4>
                     <h4 class="font-weight-regular minify-text mt-sm-0">
                         <i data-feather="map-pin" width="1em" height="1em"></i>
-                        IIITDM Kancheepuram <span class="d-none d-sm-inline">, Chennai</span>
+                        IIITDM Kancheepuram<span class="d-none d-sm-inline">, Chennai</span>
                     </h4>
                 </div>
                 <div
@@ -82,13 +112,13 @@
                     <a href="/authors" class="text-white">Submit your paper</a>
                 </div>
                 <div class="col border-left py-4 opacity-white-20 mt-3">
-                    <a href="" class="text-white">PPT Template</a>
+                    <a href="" class="text-white center">PPT Template</a>
                 </div>
                 <div class="col border-right py-4 opacity-white-20 mt-3">
                     <a href="" class="text-white">Registered Papers</a>
                 </div>
                 <div class="col border-left border-right py-4 opacity-white-20 mt-3">
-                    <a href="" class="text-white">Abstract Book</a>
+                    <a href="" class="text-white center">Abstract Book</a>
                 </div>
                 <div class="col border-left py-4 opacity-white-20 mt-3">
                     <a href="" class="text-white">Technical Sessions</a>

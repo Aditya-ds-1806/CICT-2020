@@ -55,6 +55,13 @@ a:hover {
     right: 0;
 }
 
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* font-weights */
 .font-weight-light {
@@ -103,11 +110,11 @@ a:hover {
 
 /* text colors */
 .text-catskill-white {
-    color: var(--light-blue)!important;
+    color: var(--light-blue) !important;
 }
 
 .text-bahama-blue {
-    color: var(--dark-blue)!important;
+    color: var(--dark-blue) !important;
 }
 
 
@@ -291,6 +298,10 @@ footer img.img-fluid {
 @media (min-width: 576px) {
     .w-sm-25 {
         width: 25% !important;
+    }
+
+    .w-sm-33 {
+        width: 33% !important;
     }
 
     .w-sm-50 {
