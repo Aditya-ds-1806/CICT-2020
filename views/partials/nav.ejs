@@ -1,10 +1,17 @@
-<nav class="navbar expand container bg-transparent px-1 pt-4 pt-sm-3 text-right" style="z-index: 1;">
-    <div class="navbar-brand ml-auto ml-sm-0 mr-sm-auto pulse" role="button" onclick="this.classList.remove('pulse')">
+<nav class="navbar expand container bg-transparent px-4 px-sm-0 pt-4 pt-sm-3 flex-row-reverse flex-sm-row flex-nowrap"
+    style="z-index: 1;">
+    <div class="navbar-brand pulse" role="button" onclick="this.classList.remove('pulse')">
         <i data-feather="menu" width="1.75em" height="1.75em" aria-label="open menu"></i>
         <span class="font-weight-medium font-size-1 d-none d-sm-inline ml-1">Menu</span>
     </div>
     <% if(typeof route !== 'undefined' && route === 'index') { %>
     <a class="btn btn-outline-bahama-blue text-uppercase font-weight-bold font-size-1 d-none d-sm-inline"
         href="#callForPapers">Call for papers</a>
+    <% } else { %>
+    <div class="text-sm-right">
+        <img loading="lazy" src="images/IEEE_logo.svg"
+            class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-33" alt="IEEE Logo">
+        <img loading="lazy" src="images/logo-1.png" class="img-fluid pl-4 w-25 d-inline-block" alt="CICT Logo">
+    </div>
     <% } %>
 </nav>
