@@ -11,6 +11,13 @@
         z-index: 1;
     }
 
+    @media (min-width: 576px) {
+        .center {
+            position: static;
+            transform: none;
+        }
+    }
+
 
     @media (min-width: 992px) {
         .move-up {
@@ -35,15 +42,15 @@
     <%- include('partials/menu') %>
     <%- include('partials/sticky-nav') %>
     <section class="container-fluid vh-100 px-0 bg-img">
-        <a class="btn btn-outline-bahama-blue d-block d-sm-none text-uppercase font-weight-bold font-size-1 py-2 badge"
+        <a class="btn btn-outline-bahama-blue d-block d-md-none text-uppercase font-weight-bold font-size-1 py-2 badge"
             href="#callForPapers">Call for papers</a>
         <%- include('partials/alert') %>
         <%- include('partials/nav') %>
 
         <div
-            class="jumbotron container expand jumbotron-fluid bg-transparent center mb-0 px-4 px-sm-0 mt-sm-5 mt-xl-n3">
-            <div class="row mx-0 pt-xl-5">
-                <div class="col-md-10 col-lg-8 pb-5 px-0">
+            class="jumbotron container expand jumbotron-fluid bg-transparent center mb-0 px-4 px-sm-0 mt-3 mt-xl-n5 pt-0">
+            <div class="row mx-0 mt-5 mt-sm-0 pt-xl-5">
+                <div class="col-md-10 col-lg-10 col-xl-8 pb-5 px-0">
                     <div class="col-12 col-sm-7 col-md-6 col-xl-5 mt-3 px-0">
                         <img loading="lazy" src="images/IEEE_logo.svg"
                             class="img-fluid pr-4 d-inline-block border-right border-secondary opacity-blue-30 w-33 w-sm-50"
@@ -62,7 +69,7 @@
                     </h4>
                 </div>
                 <div
-                    class="col-md-2 col-lg-4 d-none d-md-flex flex-column justify-content-around align-content-stretch align-items-end social">
+                    class="col-md-2 col-lg-2 col-xl-4 d-none d-md-flex flex-column justify-content-around align-content-stretch align-items-end social">
                     <a><i data-feather="instagram"></i></a>
                     <a><i data-feather="twitter"></i></a>
                     <a><i data-feather="facebook"></i></a>

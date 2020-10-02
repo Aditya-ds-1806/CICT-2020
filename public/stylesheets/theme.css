@@ -366,6 +366,10 @@ footer img.img-fluid {
         width: 50% !important;
     }
 
+    .w-xl-60 {
+        width: 60% !important;
+    }
+
     .w-xl-33 {
         width: 33% !important;
     }
@@ -376,6 +380,12 @@ footer img.img-fluid {
 
     .w-xl-100 {
         width: 100% !important;
+    }
+}
+
+@media(min-width: 1400px) {
+    .w-xxl-50 {
+        width: 50% !important;
     }
 }
 
