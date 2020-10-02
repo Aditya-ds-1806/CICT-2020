@@ -17,19 +17,10 @@
         padding: 0.15em 0.8em;
     }
 
-    @media(max-width: 992px) {
-
-        html,
-        body {
-            font-size: 15px !important;
-        }
-    }
-
-    @media(max-width: 768px) {
-
-        html,
-        body {
-            font-size: 14px !important;
+    @media(min-width: 992px) {
+        .center {
+            position: static !important;
+            transform: none;
         }
     }
 
@@ -37,7 +28,7 @@
 
         html,
         body {
-            font-size: 12px !important;
+            font-size: 14px !important;
         }
     }
 
@@ -47,6 +38,21 @@
         animation-duration: 1250ms;
         animation-iteration-count: infinite;
         animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+    }
+
+    a.dropdown-item {
+        color: var(--dark-blue);
+        background-color: var(--light-blue);
+        padding: 0.15em 0.8em;
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+
+    a.dropdown-item:hover,
+    a.dropdown-item:focus {
+        background-color: var(--dark-blue);
+        color: #fff;
     }
 
     @keyframes arrow {
@@ -66,19 +72,56 @@
 <body>
     <%- include('partials/menu') %>
     <%- include('partials/sticky-nav') %>
-    <section
-        class="container-fluid vh-100 px-0 bg-img bg-catskill-white d-flex flex-column justify-content-center justify-content-sm-start">
-        <%- include('partials/alert.ejs') %>
-        <%- include('partials/nav.ejs') %>
-        <div class="jumbotron container jumbotron-fluid bg-transparent expand mb-0 pl-3 px-sm-0 pt-3" id="hero">
-            <header class="mt-sm-4">
-                <h1 class="font-size-3 w-md-75 w-lg-50"><span class="underline-bahama-blue-lg">Extraordinary people
-                        who make the extraordinary possible.</span></h1>
+    <section class="container-fluid vh-100 px-0 bg-img bg-catskill-white">
+        <%- include('partials/alert') %>
+        <%- include('partials/nav') %>
+        <div class="jumbotron container center jumbotron-fluid bg-transparent expand mb-0 px-3 px-sm-0 pt-5 pt-lg-0 mt-5 mt-lg-0"
+            id="hero">
+            <header class="mt-sm-4 mt-lg-0">
+                <h1 class="font-size-3 w-md-75 w-lg-75 w-xl-60 w-xxl-50">
+                    <span class="underline-bahama-blue-lg">Extraordinary people who make the extraordinary
+                        possible.</span>
+                </h1>
             </header>
             <main class="py-3 mt-5">
-                <h5 class="font-weight-bold position-relative">Select<i data-feather="chevron-down"
+                <h5 class="font-weight-bold position-relative d-none d-lg-block">Select<i data-feather="chevron-down"
                         class="arrow ml-2"></i></h5>
-                <ul class="nav nav-pills d-flex flex-row mt-2" id="myTab" role="tablist">
+                <div class="dropup">
+                    <button type="button"
+                        class="btn btn-outline-bahama-blue font-size-1 font-weight-regular d-flex d-lg-none justify-content-between w-100"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                        <span id="menu-topic">Patrons</span>
+                        <i data-feather="chevron-down" class="arrow position-relative"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-left bg-catskill-white font-size-1 rounded-0 w-100 py-0"
+                        style="height: 10em; overflow-y: scroll;" role="tablist">
+                        <a href="#patrons" id="patrons-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Patrons</a>
+                        <a href="#steering" id="steering-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Steering Committee</a>
+                        <a href="#advisory" id="advisory-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Advisory Committee</a>
+                        <a href="#generalChairs" id="general-chairs-tab" data-toggle="tab" role="tab"
+                            class="dropdown-item" type="button">General Chairs</a>
+                        <a href="#organisingChairs" id="organising-chairs-tab" data-toggle="tab" role="tab"
+                            class="dropdown-item" type="button">Organising Chairs</a>
+                        <a href="#technical" id="technical-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Technical Program Committee</a>
+                        <a href="#phdSymposium" id="phd-symposium-tab" data-toggle="tab" role="tab"
+                            class="dropdown-item" type="button">PhD Symposium Chairs</a>
+                        <a href="#trackChairs" id="track-chairs-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Track Chairs</a>
+                        <a href="#wie" id="wie-tab" data-toggle="tab" role="tab" class="dropdown-item" type="button">WiE
+                            Chairs</a>
+                        <a href="#industry" id="industry-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Industry Forum Chairs</a>
+                        <a href="#organizing" id="organizing-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Conference Organising Committee</a>
+                        <a href="#student" id="student-tab" data-toggle="tab" role="tab" class="dropdown-item"
+                            type="button">Student Management Committee</a>
+                    </div>
+                </div>
+                <ul class="nav nav-pills d-none d-lg-flex mt-2" id="myTab" role="tablist">
                     <li class="nav-item my-2 mr-3 text-uppercase" role="presentation">
                         <a class="nav-link font-size-1 font-weight-bold active" id="patrons-tab" data-toggle="tab"
                             href="#patrons" role="tab" aria-controls="patrons" aria-selected="true">Patrons</a>
