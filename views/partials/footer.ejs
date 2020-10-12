@@ -7,11 +7,15 @@
                 <form>
                     <div class="form-group">
                         <label for="email-footer" class="d-none">Email</label>
-                        <input type="email" class="form-control dark text-center text-sm-left" id="email-footer" name="email"
-                            placeholder="example@example.com" required>
+                        <input type="email" class="form-control dark text-center text-sm-left" id="email-footer"
+                            name="email" placeholder="example@example.com" required>
                     </div>
-                    <button type="submit"
-                        class="btn btn-outline-white mt-4 font-weight-bold bg-bahama-blue">Subscribe</button>
+                    <button type="submit" class="btn btn-outline-white mt-4 font-weight-bold bg-bahama-blue">
+                        Subscribe
+                        <span class="spinner-border spinner-border-sm align-middle ml-1 d-none" role="status"
+                            aria-hidden="true"></span>
+                    </button>
+                    <p class="mt-1 invisible d-inline-block px-1">Status</p>
                 </form>
             </div>
             <div class="col-sm-auto align-self-center text-center text-sm-right text-xl-left mt-5 mt-sm-0">
