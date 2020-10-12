@@ -5,6 +5,7 @@ const serveStatic = require('serve-static');
 const favicon = require('serve-favicon');
 const path = require('path');
 const fs = require('fs');
+const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.use(serveStatic(path.join(__dirname, "public"), {
 }));
 app.use(express.static('public'));
 app.use(compression({ level: 9 }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
@@ -29,6 +31,14 @@ app.use(helmet({
         }
     }
 }));
+
+app.post('/', (req, res) => {
+    const email = req.body.email;
+    fs.appendFile("emails.csv", `${email}\n`, function (err) {
+        if (err) throw err;
+        res.sendStatus(200);
+    });
+});
 
 app.get('/', (req, res) => {
     const speakers = JSON.parse(fs.readFileSync('content/speakers.json'));
