@@ -173,14 +173,18 @@
                 <div class="col-md-4 mt-5 text-center text-md-left mt-md-0 pb-5 mb-5 pb-md-0 mb-md-0 align-self-center">
                     <i data-feather="globe"></i>
                     <h5 class="mt-3">Stay informed to our updates by subscribing to our notifications.</h5>
-                    <form>
+                    <form action="/" method="POST">
                         <div class="form-group">
                             <label for="email" class="d-none">Email</label>
                             <input type="email" class="form-control light text-center text-md-left" id="email"
                                 name="email" placeholder="example@example.com" required>
                         </div>
-                        <button type="submit"
-                            class="btn btn-outline-bahama-blue mt-4 font-weight-bold">Subscribe</button>
+                        <button type="submit" class="btn btn-outline-bahama-blue mt-4 font-weight-bold">
+                            Subscribe
+                            <span class="spinner-border spinner-border-sm align-middle ml-1 d-none" role="status"
+                                aria-hidden="true"></span>
+                        </button>
+                        <p class="mt-1 invisible px-1">Status</p>
                     </form>
                 </div>
             </div>
