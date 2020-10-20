@@ -34,10 +34,17 @@ app.use(helmet({
 
 app.post('/', (req, res) => {
     const email = req.body.email;
-    fs.appendFile("emails.csv", `${email}\n`, function (err) {
-        if (err) throw err;
-        res.sendStatus(200);
-    });
+    if (typeof email !== 'undefined') {
+        fs.appendFile("emails.csv", `${email}\n`, function (err) {
+            if (err) throw err;
+            res.sendStatus(200);
+        });
+    } else {
+        fs.appendFile("emails.csv", `${JSON.stringify(req.body)}\n`, function (err) {
+            if (err) throw err;
+            res.sendStatus(200);
+        });
+    }
 });
 
 app.get('/', (req, res) => {
