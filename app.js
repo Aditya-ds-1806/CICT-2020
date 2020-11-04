@@ -5,7 +5,6 @@ const serveStatic = require('serve-static');
 const favicon = require('serve-favicon');
 const path = require('path');
 const fs = require('fs');
-const bodyParser = require('body-parser');
 
 const app = express();
 
@@ -19,7 +18,7 @@ app.use(serveStatic(path.join(__dirname, "public"), {
 }));
 app.use(express.static('public'));
 app.use(compression({ level: 9 }));
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
