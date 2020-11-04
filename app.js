@@ -4,6 +4,7 @@ const compression = require('compression');
 const serveStatic = require('serve-static');
 const favicon = require('serve-favicon');
 const path = require('path');
+const rateLimit = require('express-rate-limit');
 const fs = require('fs');
 
 const app = express();
@@ -19,6 +20,14 @@ app.use(serveStatic(path.join(__dirname, "public"), {
 app.use(express.static('public'));
 app.use(compression({ level: 9 }));
 app.use(express.urlencoded({ extended: true }));
+// Prevent DOS attacks
+app.use(express.json({ limit: "10kb" }));
+// Rate limiting - 10 reqs/hour
+const limit = rateLimit({
+    max: 10,
+    windowMs: 60 * 60 * 1000
+})
+// Helmet
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
@@ -31,7 +40,7 @@ app.use(helmet({
     }
 }));
 
-app.post('/', (req, res) => {
+app.post('/', limit, (req, res) => {
     const email = req.body.email;
     if (typeof email !== 'undefined') {
         fs.appendFile("emails.csv", `${email}\n`, function (err) {
