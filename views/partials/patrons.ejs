@@ -10,7 +10,9 @@
         </main>
     </div>
     <div class="col-md-4 col-lg-3 text-center order-0 order-md-1 mb-3 pb-5 mb-md-0 pb-md-0">
-        <img loading="lazy" src="<%= patron.image %>" class="img-fluid px-3 px-md-0" alt="Dr. Banshidhar Majhi">
+        <a href="<%= patron.profile %>" target="_blank">
+            <img loading="lazy" src="<%= patron.image %>" class="img-fluid px-3 px-md-0" alt="<%= patron.name %>">
+        </a>
     </div>
 </div>
 <% }); %>

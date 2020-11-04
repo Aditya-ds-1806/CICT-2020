@@ -3,30 +3,35 @@
         "name": "Prof. Banshidhar Majhi",
         "image": "images/directors/majhi.jpg",
         "institute": "IIITDM Kancheepuram",
+        "profile": "https://www.iiitdm.ac.in/Administration/Director.php",
         "description": "Prof. Banshidhar Majhi received his Bachelor’s degree in Physics with honours from G.M. College under Sambalpur University in 1984. He completed Master of Computer Applications in 1988 and subsequently M.Tech. in Computer Science and Engineering in 1998 both from REC Rourkela, Sambalpur University. He obtained his Ph.D. in Computer Science and Engineering in 2003 from the same institute. He served in various administrative positions at NIT Rourkela such as Head of the Department, Professor in-charge of Examinations, Dean - Academics, and Chairman - Automation Cell. He has been instrumental in setting up two centers of research, namely, Centre of Data Analytics and Decision Sciences, and Centre of Computer Vision and Pattern Recognition at NIT Rourkela. His numerous research outputs pertain to image restoration, video compression, biometrics, soft computing, optical character recognition, image super-resolution, biomedical image processing, wireless sensor and actor networks. Under his guidance, 15 scholars have completed their Ph.D. in Computer Engineering. He has also guided numerous students in their M.Tech. and M.S. program."
     },
     {
-        "name": "Prof. P. Nagbhushan",
+        "name": "Prof. P. Nagabhushan",
         "image": "images/directors/nagbhushan.jpg",
         "institute": "IIIT Allahabad",
+        "profile": "https://iiita.ac.in/administration/director_profile/",
         "description": "Prof. P. Nagabhushan is the Director and professor in Computer Science and Engineering in IIIT Allahabad. He has completed his B.E in 1980, M.E. in 1983 and PhD in 1988 . He was a Fellow of Institution of Engineers (FIE) in 2002 and fellow of Institution of Electronics and Telecommunication Engineering (FIETE) in 2010. He worked as a professor in SJ College of Engineering, Mysore and University of Mysore from 1994 and 1996 respectively. Dr. Nagabhushan worked as a Chief Nodal Officer in Choice based Credit Pattern Continuous assessment Education system, University of Mysore. There, he also worked as a Chairman of academic Reformation Committee. Formerly, he was a distinguished professor and chairman in Amrita Vishwavidyapeetam, Amrita University, Coimbatore And worked as director in 2 institutes, in BESTER, i.e. Bangalore Educational Society for Technology Advancement and Research and in BTI, Bangalore Technological Institute, Bangalore."
     },
     {
         "name": "Prof. Rajendra Sahu",
         "image": "images/directors/sahu.jpg",
         "institute": "ABV-IIITM Gwalior",
+        "profile": "https://www.iiitm.ac.in/index.php/en/about-iiitm/administration",
         "description": "Prof. Rajendra Sahu is a Professor at ABV- IIITM, Gwalior. He earned his Ph. D. from IIT Kharagpur, after completing his master’s degree both in Management and Engineering. His primary areas of interest are Systems Approach to Management, Business Analytics, IT-enabled Services, ERP, Supply Chain Management, Knowledge Management, Data Warehousing and Data Mining. Prof. Sahu served as a Director at IIIT, Basar-Andhra Pradesh for two terms. He has more than 30 years of teaching, research and consulting experience. During this tenure, he has been associated with the various national and international consulting projects, editorial board of 08 international journals, guided 10 PhD scholars, and published more than 100 research articles. He has conducted several Management Development, Faculty Development and Training programmes for leading organizations. He has been active in developing web based pedagogy and resource material. Prof. Sahu has been awarded as the best Professor in Knowledge Management by 26th Business School Affairs and Dewang Mehta National Education Award. He has also been honoured with the prestigious Dr. Abdul Kalam Gold Medal in 2015, as a Lifetime Achievement Award to distinguished and meritorious Indian personalities for his outstanding individual achievements in the field of education and research. He has been associated with various national and international boards."
     },
     {
         "name": "Prof. D V L N Somayajulu",
         "image": "images/directors/somayajulu.jpg",
         "institute": "IIITDM Kurnool",
+        "profile": "http://iiitk.ac.in/Director's-Profile/page",
         "description": "Prof. D V L N Somayajulu is currently serving as the director of Indian Institute of Information Technology Design, Kurnool. Earlier he has also served as Professor at National Institute of Technology (NIT), Warangal and Chair professor of Electronic and ICT academy, India. Prof. Somayajulu has completed his M. Tech from IIT Kharagpur. He has done his Ph.D. from Indian Institute of Technology, Delhi in 2002. His research interest includes bio- informatics, database security, Data Mining, Data Warehousing and Big Data. His research include from both academia and industry perspective."
     },
     {
         "name": "Prof. Sanjeev Jain",
         "image": "images/directors/sanjeev.jpg",
         "institute": "IIITDM Jabalpur",
+        "profile": "https://www.iiitdmj.ac.in/administration/administration.php",
         "description": "Prof. Sanjeev Jain has done his Bachelor of Engineering (B.E.), Electronics(1985 – 1990) from Samrat Ashok Technological Institute , Vidisha. He has done his masters from Indian Institute of Technology, Delhi in the field of Computer Engineering from 1991 – 1992. He has done his Ph.D. from Barkatullah Vishwavidyalaya in 2000 in the field of Computer Engineering. He is currently the director of Indian institute of Information Technology Design and Manufacturing Jabalpur. He has been Vice Chancellor of Shri Mata Vaishno Devi University for 3 yrs. He has also served as the Director of Madhav Institute of Technology and Science, Gwalior for 5 years and 11 months. He is an IEEE Senior member with total teaching experience of 30 years."
     }
 ]
