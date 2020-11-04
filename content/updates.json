@@ -1,17 +1,17 @@
 [
     {
+        "date": "Oct 1",
+        "fullDate": "October 1, 2020",
+        "text": "Registration commences",
+        "fullText": "Registration commences"
+    },
+    {
         "date": "Nov 10",
         "fullDate": "November 10, 2020",
         "prevDate": "Oct 31",
         "fullPrevDate": "October 31, 2020",
         "text": "Paper submission (Hard deadline)",
         "fullText": "Full Paper submission deadline (Hard deadline)"
-    },
-    {
-        "date": "Oct 1",
-        "fullDate": "October 1, 2020",
-        "text": "Registration commences",
-        "fullText": "Registration commences"
     },
     {
         "date": "Nov 20",
@@ -21,8 +21,8 @@
     },
     {
         "date": "Nov 25",
-        "text": "Registration deadline",
-        "fullText": "Registration deadline",
+        "text": "Presenter Registration deadline",
+        "fullText": "Presenter Registration deadline",
         "fullDate": "November 25, 2020"
     },
     {
@@ -35,6 +35,12 @@
         "date": "Nov 27",
         "text": "Presentation video upload",
         "fullText": "Presentation video upload deadline",
+        "fullDate": "November 27, 2020"
+    },
+    {
+        "date": "Nov 30",
+        "text": "Attendee Registration Deadline",
+        "fullText": "Attendee Registration Deadline",
         "fullDate": "November 27, 2020"
     }
 ]

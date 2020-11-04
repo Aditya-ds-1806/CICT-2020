@@ -1,4 +1,5 @@
-<% updates.forEach(update => { %>
+<% updates.reverse().forEach((update, i) => { %>
+<% if(i <=5) { %>
 <div class="col py-2">
     <div class="card rounded-0 border-bahama-blue bg-catskill-white h-100 m-0">
         <div class="card-body">
@@ -11,4 +12,5 @@
         </div>
     </div>
 </div>
+<% } %>
 <% }) %>
