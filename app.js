@@ -5,6 +5,7 @@ const serveStatic = require('serve-static');
 const favicon = require('serve-favicon');
 const path = require('path');
 const rateLimit = require('express-rate-limit');
+const xss = require('xss');
 const fs = require('fs');
 
 const app = express();
@@ -41,7 +42,7 @@ app.use(helmet({
 }));
 
 app.post('/', limit, (req, res) => {
-    const email = req.body.email;
+    const email = xss(req.body.email); // sanitize user input
     if (typeof email !== 'undefined') {
         fs.appendFile("emails.csv", `${email}\n`, function (err) {
             if (err) throw err;
