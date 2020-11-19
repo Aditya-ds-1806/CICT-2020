@@ -1,5 +1,5 @@
 setInterval(function () {
-    var diff = countdown(null, new Date('December 3, 2020'));
+    var diff = countdown(null, new Date('Thu, 03 Dec 2020 09:30:00 +0530'));
     var days = diff.days;
     var hours = diff.hours;
     var minutes = diff.minutes;
