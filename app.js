@@ -32,7 +32,7 @@ const limit = rateLimit({
 app.use(helmet({
     contentSecurityPolicy: {
         directives: {
-            defaultSrc: ["'self'", "'unsafe-inline'", "stackpath.bootstrapcdn.com", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "formfacade.com"],
+            defaultSrc: ["'self'", "storage.googleapis.com", "'unsafe-inline'", "stackpath.bootstrapcdn.com", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "formfacade.com"],
             imgSrc: ["'self'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "transloadit.edgly.net", "formfacade.com"],
             fontSrc: ["'self'", "fonts.googleapis.com", "fonts.gstatic.com"],
             styleSrc: ["'self'", "'unsafe-inline'", "localhost:3000", "www.cict2020.iiitdm.ac.in", "cict2020.herokuapp.com", "stackpath.bootstrapcdn.com", "fonts.googleapis.com", "fonts.gstatic.com", "transloadit.edgly.net"],
