@@ -3,8 +3,9 @@ setInterval(function () {
     var days = diff.days;
     var hours = diff.hours;
     var minutes = diff.minutes;
+    var seconds = diff.seconds;
 
-    document.querySelector("#days").textContent = days;
-    document.querySelector("#hours").textContent = hours;
+    document.querySelector("#hours").textContent = hours + 24 * days;
     document.querySelector("#minutes").textContent = minutes;
+    document.querySelector("#seconds").textContent = seconds;
 }, 1000);
